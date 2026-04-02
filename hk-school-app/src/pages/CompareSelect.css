@@ -1,0 +1,31 @@
+.compare-select-hint {
+  margin: 0 0 8px;
+  font-size: 0.95rem;
+}
+
+.compare-select-filter-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  padding: 4px 8px 0;
+}
+
+.compare-select-moi-select {
+  padding: 0 8px;
+  margin-top: 4px;
+}
+
+.compare-select-count-chip {
+  margin: 8px 8px 4px;
+}
+
+.compare-select-loading {
+  display: flex;
+  justify-content: center;
+  padding: 24px;
+}
+
+.compare-select-content ion-searchbar {
+  padding-inline-start: 0;
+  padding-inline-end: 0;
+}

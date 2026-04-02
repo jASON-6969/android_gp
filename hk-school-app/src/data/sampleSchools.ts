@@ -14,7 +14,11 @@ export const sampleSchools: School[] = [
     website: "https://www.kings.edu.hk",
     latitude: 22.2859,
     longitude: 114.1418,
-    source: "Built-in sample data"
+    source: "Built-in sample data",
+    rawData: {
+      "TEACHING LANGUAGE": "English as medium of instruction",
+      教學語言: "英語為主要教學語言"
+    }
   },
   {
     id: "sample-2",
@@ -29,7 +33,11 @@ export const sampleSchools: School[] = [
     website: "https://www.lasalle.edu.hk",
     latitude: 22.3352,
     longitude: 114.1818,
-    source: "Built-in sample data"
+    source: "Built-in sample data",
+    rawData: {
+      "TEACHING LANGUAGE": "Chinese and English",
+      教學語言: "中文及英文"
+    }
   },
   {
     id: "sample-3",
@@ -43,7 +51,11 @@ export const sampleSchools: School[] = [
     telephone: "+852 2802 2018",
     latitude: 22.2795,
     longitude: 114.1736,
-    source: "Built-in sample data"
+    source: "Built-in sample data",
+    rawData: {
+      "TEACHING LANGUAGE": "Cantonese (with English activities)",
+      教學語言: "粵語（附英語活動）"
+    }
   },
   {
     id: "sample-4",
@@ -58,7 +70,11 @@ export const sampleSchools: School[] = [
     website: "https://www.mhyc.edu.hk",
     latitude: 22.3128,
     longitude: 114.2262,
-    source: "Built-in sample data"
+    source: "Built-in sample data",
+    rawData: {
+      "TEACHING LANGUAGE": "Chinese as medium of instruction",
+      教學語言: "中文為主要教學語言"
+    }
   },
   {
     id: "sample-5",
@@ -72,6 +88,10 @@ export const sampleSchools: School[] = [
     telephone: "+852 2477 6920",
     latitude: 22.4445,
     longitude: 114.0229,
-    source: "Built-in sample data"
+    source: "Built-in sample data",
+    rawData: {
+      "TEACHING LANGUAGE": "Chinese and English",
+      教學語言: "中文及英文"
+    }
   }
 ];

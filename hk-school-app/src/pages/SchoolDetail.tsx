@@ -14,7 +14,7 @@ import {
   IonTitle,
   IonToolbar
 } from "@ionic/react";
-import { callOutline, chevronDownOutline, chevronForwardOutline, globeOutline, heart, heartOutline, locationOutline } from "ionicons/icons";
+import { callOutline, chevronDownOutline, chevronForwardOutline, gitCompareOutline, globeOutline, heart, heartOutline, locationOutline } from "ionicons/icons";
 import { RouteComponentProps } from "react-router-dom";
 import { sampleSchools } from "../data/sampleSchools";
 import { loadFavoriteIds } from "../hooks/useFavorites";
@@ -88,7 +88,7 @@ const detailSections: SectionConfig[] = [
   }
 ];
 
-const SchoolDetail: React.FC<DetailProps> = ({ match }) => {
+const SchoolDetail: React.FC<DetailProps> = ({ match, history }) => {
   const decodedId = decodeURIComponent(match.params.id);
   const [schools, setSchools] = useState<School[]>(() => getCachedSchools());
   const [favoriteIds, setFavoriteIds] = useState<string[]>(() => loadFavoriteIds());
@@ -203,6 +203,15 @@ const SchoolDetail: React.FC<DetailProps> = ({ match }) => {
         <IonButton expand="block" fill="outline" onClick={openInMap}>
           <IonIcon slot="start" icon={locationOutline} />
           {language === "en" ? "Open in map" : "在地圖中開啟"}
+        </IonButton>
+
+        <IonButton
+          expand="block"
+          fill="outline"
+          onClick={() => history.push(`/school/${encodeURIComponent(school.id)}/compare`)}
+        >
+          <IonIcon slot="start" icon={gitCompareOutline} />
+          {language === "en" ? "Compare with another school" : "與其他學校比較"}
         </IonButton>
 
         <div className="school-detail-accordion">

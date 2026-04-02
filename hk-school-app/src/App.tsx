@@ -3,6 +3,8 @@ import { Redirect, Route } from "react-router-dom";
 import { IonApp, IonRouterOutlet, setupIonicReact } from "@ionic/react";
 import { IonReactRouter } from "@ionic/react-router";
 import Home from "./pages/Home";
+import CompareSelect from "./pages/CompareSelect";
+import SchoolCompare from "./pages/SchoolCompare";
 import SchoolDetail from "./pages/SchoolDetail";
 
 /* Core CSS required for Ionic components to work properly */
@@ -33,6 +35,8 @@ const App: React.FC = () => (
         <Route exact path="/home">
           <Home />
         </Route>
+        <Route exact path="/school/:id/compare" component={CompareSelect} />
+        <Route exact path="/compare/:idBase/:idOther" component={SchoolCompare} />
         <Route exact path="/school/:id" component={SchoolDetail} />
         <Route exact path="/">
           <Redirect to="/home" />
