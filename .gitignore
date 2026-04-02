@@ -1,0 +1,5 @@
+# Course / local docs (do not publish)
+COMP 3130SEF-MobileAppProject.pdf
+
+# JetBrains / Android Studio (machine-specific)
+.idea/
