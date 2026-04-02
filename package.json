@@ -1,0 +1,13 @@
+{
+  "name": "android_gp",
+  "private": true,
+  "description": "Workspace root; Ionic/Capacitor app is in hk-school-app",
+  "scripts": {
+    "start": "npm start --prefix hk-school-app",
+    "build": "npm run build --prefix hk-school-app",
+    "lint": "npm run lint --prefix hk-school-app",
+    "test": "npm test --prefix hk-school-app",
+    "android:sync": "npm run android:sync --prefix hk-school-app",
+    "android:open": "npm run android:open --prefix hk-school-app"
+  }
+}

@@ -25,8 +25,10 @@ import {
 import { heart, heartOutline, locationOutline } from "ionicons/icons";
 import { useHistory } from "react-router-dom";
 import { loadFavoriteIds, useFavoriteHelpers } from "../hooks/useFavorites";
+import { getStartupLocation, StartupLocation } from "../services/locationService";
 import { fetchSchools } from "../services/schoolService";
 import { School } from "../types/school";
+import { haversineKm } from "../utils/geo";
 import "./Home.css";
 
 type ViewMode = "all" | "favorites";
@@ -49,8 +51,20 @@ const Home: React.FC = () => {
   const [viewMode, setViewMode] = useState<ViewMode>("all");
   const [language, setLanguage] = useState<Language>(() => (localStorage.getItem("hk-school-app-lang") as Language) ?? "en");
   const [favoriteIds, setFavoriteIds] = useState<string[]>(() => loadFavoriteIds());
+  const [userLocation, setUserLocation] = useState<StartupLocation | null>(null);
 
   const { favoriteSet, toggleFavorite } = useFavoriteHelpers(favoriteIds);
+
+  const loadInitialData = async (): Promise<void> => {
+    setLoading(true);
+    try {
+      const [items, location] = await Promise.all([fetchSchools(), getStartupLocation()]);
+      setSchools(items);
+      setUserLocation(location);
+    } finally {
+      setLoading(false);
+    }
+  };
 
   const refreshData = async (): Promise<void> => {
     setLoading(true);
@@ -60,7 +74,7 @@ const Home: React.FC = () => {
   };
 
   useEffect(() => {
-    void refreshData();
+    void loadInitialData();
   }, []);
 
   useEffect(() => {
@@ -76,7 +90,7 @@ const Home: React.FC = () => {
   const filteredSchools = useMemo(() => {
     const normalizedQuery = query.trim().toLowerCase();
 
-    return schools.filter((school) => {
+    const filtered = schools.filter((school) => {
       if (viewMode === "favorites" && !favoriteSet.has(school.id)) {
         return false;
       }
@@ -100,7 +114,24 @@ const Home: React.FC = () => {
         (school.addressZh ?? "").toLowerCase().includes(normalizedQuery)
       );
     });
-  }, [schools, viewMode, favoriteSet, district, level, query]);
+
+    if (!userLocation) {
+      return filtered;
+    }
+
+    const { latitude: uLat, longitude: uLng } = userLocation;
+    return [...filtered].sort((a, b) => {
+      const distA =
+        a.latitude != null && a.longitude != null
+          ? haversineKm(uLat, uLng, a.latitude, a.longitude)
+          : Number.POSITIVE_INFINITY;
+      const distB =
+        b.latitude != null && b.longitude != null
+          ? haversineKm(uLat, uLng, b.latitude, b.longitude)
+          : Number.POSITIVE_INFINITY;
+      return distA - distB;
+    });
+  }, [schools, viewMode, favoriteSet, district, level, query, userLocation]);
 
   const handleRefresh = async (event: CustomEvent): Promise<void> => {
     await refreshData();
@@ -176,6 +207,16 @@ const Home: React.FC = () => {
               {language === "en" ? `${filteredSchools.length} schools` : `${filteredSchools.length} 間學校`}
             </IonLabel>
           </IonChip>
+
+          {userLocation ? (
+            <IonChip color="tertiary" outline className="home-location-chip">
+              <IonIcon icon={locationOutline} />
+              <IonLabel className="home-location-label">
+                {userLocation.address ??
+                  `${userLocation.latitude.toFixed(4)}, ${userLocation.longitude.toFixed(4)}`}
+              </IonLabel>
+            </IonChip>
+          ) : null}
         </div>
 
         {loading ? (

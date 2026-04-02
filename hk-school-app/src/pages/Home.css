@@ -24,3 +24,16 @@
   gap: 8px;
   margin-top: 4px;
 }
+
+.home-location-chip {
+  max-width: 100%;
+  height: auto;
+  min-height: 32px;
+  align-items: flex-start;
+}
+
+.home-location-label {
+  white-space: normal;
+  font-size: 0.85rem;
+  line-height: 1.3;
+}
