@@ -18,13 +18,13 @@
   font-weight: 600;
 }
 
-.home-loading {
-  height: 60vh;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  align-items: center;
-  justify-content: center;
+ion-item.home-school-card {
+  transition: transform 0.22s cubic-bezier(0.22, 1, 0.36, 1);
+  transform-origin: center;
+}
+
+ion-item.home-school-card:active {
+  transform: scale(0.97);
 }
 
 .home-meta-row {

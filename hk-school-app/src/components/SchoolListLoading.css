@@ -1,0 +1,42 @@
+.school-list-loading {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 24px;
+}
+
+.school-list-loading-lottie {
+  width: 140px;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.school-list-loading-lottie-inner {
+  width: 100%;
+  height: 100%;
+}
+
+.school-list-loading-label {
+  text-align: center;
+  font-size: 0.95rem;
+  color: var(--ion-color-medium-shade, #666);
+}
+
+.school-list-loading-bar {
+  width: min(320px, 88vw);
+  height: 6px;
+  border-radius: 4px;
+  --buffer-background: rgba(var(--ion-color-primary-rgb, 56, 128, 255), 0.18);
+  --progress-background: var(--ion-color-primary, #3880ff);
+}
+
+.school-list-loading-pct {
+  font-size: 0.8rem;
+  color: var(--ion-color-medium, #92949c);
+  font-variant-numeric: tabular-nums;
+}

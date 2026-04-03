@@ -18,7 +18,6 @@ import {
   IonSegmentButton,
   IonSelect,
   IonSelectOption,
-  IonSpinner,
   IonTitle,
   IonToolbar
 } from "@ionic/react";
@@ -35,6 +34,7 @@ import {
   normalizeBandingToken,
   schoolMatchesBandingFilter
 } from "../utils/schoolBanding";
+import SchoolListLoading from "../components/SchoolListLoading";
 import "./Home.css";
 
 type ViewMode = "all" | "favorites";
@@ -51,6 +51,7 @@ const Home: React.FC = () => {
   const history = useHistory();
   const [schools, setSchools] = useState<School[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
+  const [loadProgress, setLoadProgress] = useState<number>(0);
   const [query, setQuery] = useState<string>("");
   const [district, setDistrict] = useState<string>("all");
   const [level, setLevel] = useState<string>("all");
@@ -64,20 +65,31 @@ const Home: React.FC = () => {
 
   const loadInitialData = async (): Promise<void> => {
     setLoading(true);
+    setLoadProgress(0.06);
     try {
-      const [items, location] = await Promise.all([fetchSchools(), getStartupLocation()]);
+      const items = await fetchSchools();
+      setLoadProgress(0.62);
+      const location = await getStartupLocation();
+      setLoadProgress(1);
       setSchools(items);
       setUserLocation(location);
     } finally {
       setLoading(false);
+      setLoadProgress(0);
     }
   };
 
   const refreshData = async (): Promise<void> => {
     setLoading(true);
-    const items = await fetchSchools();
-    setSchools(items);
-    setLoading(false);
+    setLoadProgress(0.1);
+    try {
+      const items = await fetchSchools();
+      setLoadProgress(1);
+      setSchools(items);
+    } finally {
+      setLoading(false);
+      setLoadProgress(0);
+    }
   };
 
   useEffect(() => {
@@ -264,17 +276,19 @@ const Home: React.FC = () => {
         </div>
 
         {loading ? (
-          <div className="home-loading">
-            <IonSpinner name="crescent" />
-            <IonLabel>{language === "en" ? "Loading schools..." : "正在載入學校資料..."}</IonLabel>
-          </div>
+          <SchoolListLoading language={language} progress={loadProgress} />
         ) : (
           <IonList inset>
             {filteredSchools.map((school) => {
               const bandingInfo = school.level === "Secondary" ? getBandingForSchool(school) : null;
               const bandingLabel = bandingInfo?.banding?.trim();
               return (
-              <IonItem key={school.id} button onClick={() => history.push(`/school/${encodeURIComponent(school.id)}`)}>
+              <IonItem
+                key={school.id}
+                button
+                className="home-school-card"
+                onClick={() => history.push(`/school/${encodeURIComponent(school.id)}`)}
+              >
                 <IonLabel>
                   <h2>{language === "en" ? school.nameEn : school.nameZh ?? school.nameEn}</h2>
                   <p>{language === "en" ? school.addressEn : school.addressZh ?? school.addressEn}</p>
