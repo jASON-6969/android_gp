@@ -4,6 +4,7 @@ import { IonApp, IonRouterOutlet, setupIonicReact } from "@ionic/react";
 import { smoothNavTransition } from "./transitions/smoothNavTransition";
 import { IonReactRouter } from "@ionic/react-router";
 import Home from "./pages/Home";
+import SchoolMap from "./pages/SchoolMap";
 import CompareSelect from "./pages/CompareSelect";
 import SchoolCompare from "./pages/SchoolCompare";
 import SchoolDetail from "./pages/SchoolDetail";
@@ -38,6 +39,7 @@ const App: React.FC = () => (
         <Route exact path="/home">
           <Home />
         </Route>
+        <Route exact path="/map" component={SchoolMap} />
         <Route exact path="/school/:id/compare" component={CompareSelect} />
         <Route exact path="/compare/:idBase/:idOther" component={SchoolCompare} />
         <Route exact path="/school/:id" component={SchoolDetail} />

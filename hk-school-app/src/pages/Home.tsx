@@ -21,7 +21,7 @@ import {
   IonTitle,
   IonToolbar
 } from "@ionic/react";
-import { heart, heartOutline, locationOutline } from "ionicons/icons";
+import { heart, heartOutline, locationOutline, mapOutline } from "ionicons/icons";
 import { useHistory } from "react-router-dom";
 import { loadFavoriteIds, useFavoriteHelpers } from "../hooks/useFavorites";
 import { getStartupLocation, StartupLocation } from "../services/locationService";
@@ -180,6 +180,10 @@ const Home: React.FC = () => {
         <IonToolbar>
           <IonTitle>HK School Explorer</IonTitle>
           <IonButtons slot="end">
+            <IonButton fill="clear" onClick={() => history.push("/map")}>
+              <IonIcon slot="start" icon={mapOutline} />
+              {language === "en" ? "Map" : "地圖"}
+            </IonButton>
             <IonButton onClick={() => setLanguage(language === "en" ? "zh" : "en")}>
               {language === "en" ? "中文" : "EN"}
             </IonButton>
