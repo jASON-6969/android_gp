@@ -41,18 +41,18 @@ export const smoothNavTransition = (
     }
   } else {
     root
-      .duration(opts.duration ?? 340)
+      .duration(opts.duration ?? 380)
       .easing("cubic-bezier(0.22, 1, 0.36, 1)")
-      .fromTo("transform", "translateY(14px) scale(0.94)", "translateY(0) scale(1)")
-      .fromTo("opacity", 0.02, 1);
+      .fromTo("transform", "translateY(18px) scale(0.90)", "translateY(0) scale(1)")
+      .fromTo("opacity", 0.03, 1);
 
     if (leavingEl) {
       const leavingPage = createAnimation()
         .addElement(getIonPageElement(leavingEl))
-        .duration(opts.duration ?? 340)
+        .duration(opts.duration ?? 380)
         .easing("cubic-bezier(0.22, 1, 0.36, 1)")
-        .fromTo("transform", "translateY(0) scale(1)", "translateY(-10px) scale(0.96)")
-        .fromTo("opacity", 1, 0.72);
+        .fromTo("transform", "translateY(0) scale(1)", "translateY(-12px) scale(0.92)")
+        .fromTo("opacity", 1, 0.68);
       root.addAnimation(leavingPage);
     }
   }

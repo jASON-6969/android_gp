@@ -34,6 +34,7 @@ import {
   normalizeBandingToken,
   schoolMatchesBandingFilter
 } from "../utils/schoolBanding";
+import BandingBadge from "../components/BandingBadge";
 import SchoolListLoading from "../components/SchoolListLoading";
 import "./Home.css";
 
@@ -279,14 +280,16 @@ const Home: React.FC = () => {
           <SchoolListLoading language={language} progress={loadProgress} />
         ) : (
           <IonList inset>
-            {filteredSchools.map((school) => {
+            {filteredSchools.map((school, index) => {
               const bandingInfo = school.level === "Secondary" ? getBandingForSchool(school) : null;
               const bandingLabel = bandingInfo?.banding?.trim();
+              const enterStagger = Math.min(index, 32);
               return (
               <IonItem
                 key={school.id}
                 button
                 className="home-school-card"
+                style={{ ["--enter-stagger" as string]: String(enterStagger) }}
                 onClick={() => history.push(`/school/${encodeURIComponent(school.id)}`)}
               >
                 <IonLabel>
@@ -294,11 +297,7 @@ const Home: React.FC = () => {
                   <p>{language === "en" ? school.addressEn : school.addressZh ?? school.addressEn}</p>
                   <p className="home-meta-row">
                     <IonBadge color="medium">{levelLabelMap[school.level][language]}</IonBadge>
-                    {bandingLabel ? (
-                      <IonBadge color="secondary" className="home-banding-badge">
-                        Band {bandingLabel}
-                      </IonBadge>
-                    ) : null}
+                    {bandingLabel ? <BandingBadge bandLabel={bandingLabel} staggerIndex={enterStagger} /> : null}
                     <span>{language === "en" ? school.districtEn : school.districtZh ?? school.districtEn}</span>
                   </p>
                 </IonLabel>

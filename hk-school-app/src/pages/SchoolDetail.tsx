@@ -20,6 +20,7 @@ import { sampleSchools } from "../data/sampleSchools";
 import { loadFavoriteIds } from "../hooks/useFavorites";
 import { fetchSchools, getCachedSchools } from "../services/schoolService";
 import { School } from "../types/school";
+import BandingBadge from "../components/BandingBadge";
 import { getBandingForSchool } from "../utils/schoolBanding";
 import "./SchoolDetail.css";
 
@@ -213,7 +214,9 @@ const SchoolDetail: React.FC<DetailProps> = ({ match, history }) => {
             <IonItem>
               <IonLabel>
                 <h2>{language === "en" ? "Secondary banding" : "中學 Band"}</h2>
-                <p className="school-detail-banding-value">{secondaryBanding.banding}</p>
+                <p className="school-detail-banding-value">
+                  <BandingBadge bandLabel={secondaryBanding.banding} staggerIndex={0} showBandWord={false} />
+                </p>
               </IonLabel>
             </IonItem>
             {secondaryBanding.rankingRange ? (

@@ -1,0 +1,27 @@
+ion-badge.banding-badge {
+  --background: transparent;
+  --color: inherit;
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: 600;
+  text-transform: none;
+  animation: banding-badge-pulse 2.65s ease-in-out infinite;
+  animation-delay: calc(var(--band-stagger, 0) * 72ms);
+  will-change: transform;
+}
+
+@keyframes banding-badge-pulse {
+  0%,
+  100% {
+    transform: scale(1) translateY(0);
+  }
+  50% {
+    transform: scale(1.065) translateY(-2px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  ion-badge.banding-badge {
+    animation: none;
+  }
+}

@@ -13,18 +13,40 @@
   grid-template-columns: 1fr;
 }
 
-.home-banding-badge {
-  text-transform: none;
-  font-weight: 600;
+ion-item.home-school-card {
+  --enter-stagger: 0;
+  opacity: 0;
+  animation: home-card-enter 0.56s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  animation-delay: calc(var(--enter-stagger) * 38ms);
+  transition: transform 0.2s cubic-bezier(0.22, 1, 0.36, 1);
+  transform-origin: center;
 }
 
-ion-item.home-school-card {
-  transition: transform 0.22s cubic-bezier(0.22, 1, 0.36, 1);
-  transform-origin: center;
+@keyframes home-card-enter {
+  from {
+    opacity: 0;
+    transform: translateY(22px) scale(0.93);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
 }
 
 ion-item.home-school-card:active {
   transform: scale(0.97);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  ion-item.home-school-card {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+
+  ion-item.home-school-card:active {
+    transform: none;
+  }
 }
 
 .home-meta-row {
