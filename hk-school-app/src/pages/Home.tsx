@@ -29,6 +29,12 @@ import { getStartupLocation, StartupLocation } from "../services/locationService
 import { fetchSchools } from "../services/schoolService";
 import { School } from "../types/school";
 import { haversineKm } from "../utils/geo";
+import {
+  getAllBandingValues,
+  getBandingForSchool,
+  normalizeBandingToken,
+  schoolMatchesBandingFilter
+} from "../utils/schoolBanding";
 import "./Home.css";
 
 type ViewMode = "all" | "favorites";
@@ -48,6 +54,7 @@ const Home: React.FC = () => {
   const [query, setQuery] = useState<string>("");
   const [district, setDistrict] = useState<string>("all");
   const [level, setLevel] = useState<string>("all");
+  const [banding, setBanding] = useState<string>("all");
   const [viewMode, setViewMode] = useState<ViewMode>("all");
   const [language, setLanguage] = useState<Language>(() => (localStorage.getItem("hk-school-app-lang") as Language) ?? "en");
   const [favoriteIds, setFavoriteIds] = useState<string[]>(() => loadFavoriteIds());
@@ -87,8 +94,11 @@ const Home: React.FC = () => {
     return Array.from(values).sort((a, b) => a.localeCompare(b));
   }, [schools]);
 
+  const bandingOptions = useMemo(() => getAllBandingValues(), []);
+
   const filteredSchools = useMemo(() => {
     const normalizedQuery = query.trim().toLowerCase();
+    const normalizedQueryBanding = normalizeBandingToken(normalizedQuery);
 
     const filtered = schools.filter((school) => {
       if (viewMode === "favorites" && !favoriteSet.has(school.id)) {
@@ -103,15 +113,28 @@ const Home: React.FC = () => {
         return false;
       }
 
+      if (banding !== "all" && !schoolMatchesBandingFilter(school, banding)) {
+        return false;
+      }
+
       if (normalizedQuery.length === 0) {
         return true;
       }
+
+      const bandingInfo = school.level === "Secondary" ? getBandingForSchool(school) : null;
+      const bandingStr = bandingInfo?.banding ?? "";
+      const matchesBandingSearch =
+        bandingStr.length > 0 &&
+        normalizedQueryBanding.length > 0 &&
+        normalizeBandingToken(bandingStr).includes(normalizedQueryBanding);
 
       return (
         school.nameEn.toLowerCase().includes(normalizedQuery) ||
         (school.nameZh ?? "").toLowerCase().includes(normalizedQuery) ||
         school.addressEn.toLowerCase().includes(normalizedQuery) ||
-        (school.addressZh ?? "").toLowerCase().includes(normalizedQuery)
+        (school.addressZh ?? "").toLowerCase().includes(normalizedQuery) ||
+        matchesBandingSearch ||
+        (bandingInfo?.rankingRange.toLowerCase().includes(normalizedQuery) ?? false)
       );
     });
 
@@ -131,7 +154,7 @@ const Home: React.FC = () => {
           : Number.POSITIVE_INFINITY;
       return distA - distB;
     });
-  }, [schools, viewMode, favoriteSet, district, level, query, userLocation]);
+  }, [schools, viewMode, favoriteSet, district, level, banding, query, userLocation]);
 
   const handleRefresh = async (event: CustomEvent): Promise<void> => {
     await refreshData();
@@ -158,7 +181,11 @@ const Home: React.FC = () => {
         <div className="home-filter-panel">
           <IonSearchbar
             value={query}
-            placeholder={language === "en" ? "Search by school name or address" : "按學校名稱或地址搜尋"}
+            placeholder={
+              language === "en"
+                ? "Search name, address, or banding (e.g. 1A)"
+                : "搜尋名稱、地址或 Band（如 1A）"
+            }
             onIonInput={(event) => setQuery(event.detail.value ?? "")}
           />
 
@@ -202,6 +229,23 @@ const Home: React.FC = () => {
             </IonSelect>
           </div>
 
+          <div className="home-select-row home-select-row-full">
+            <IonSelect
+              interface="popover"
+              label={language === "en" ? "Secondary banding" : "中學 Band"}
+              labelPlacement="stacked"
+              value={banding}
+              onIonChange={(event) => setBanding(event.detail.value)}
+            >
+              <IonSelectOption value="all">{language === "en" ? "All bands" : "全部 Band"}</IonSelectOption>
+              {bandingOptions.map((value) => (
+                <IonSelectOption key={value} value={value}>
+                  {value}
+                </IonSelectOption>
+              ))}
+            </IonSelect>
+          </div>
+
           <IonChip color="primary" outline>
             <IonLabel>
               {language === "en" ? `${filteredSchools.length} schools` : `${filteredSchools.length} 間學校`}
@@ -226,13 +270,21 @@ const Home: React.FC = () => {
           </div>
         ) : (
           <IonList inset>
-            {filteredSchools.map((school) => (
+            {filteredSchools.map((school) => {
+              const bandingInfo = school.level === "Secondary" ? getBandingForSchool(school) : null;
+              const bandingLabel = bandingInfo?.banding?.trim();
+              return (
               <IonItem key={school.id} button onClick={() => history.push(`/school/${encodeURIComponent(school.id)}`)}>
                 <IonLabel>
                   <h2>{language === "en" ? school.nameEn : school.nameZh ?? school.nameEn}</h2>
                   <p>{language === "en" ? school.addressEn : school.addressZh ?? school.addressEn}</p>
                   <p className="home-meta-row">
                     <IonBadge color="medium">{levelLabelMap[school.level][language]}</IonBadge>
+                    {bandingLabel ? (
+                      <IonBadge color="secondary" className="home-banding-badge">
+                        Band {bandingLabel}
+                      </IonBadge>
+                    ) : null}
                     <span>{language === "en" ? school.districtEn : school.districtZh ?? school.districtEn}</span>
                   </p>
                 </IonLabel>
@@ -260,7 +312,8 @@ const Home: React.FC = () => {
                   </IonButton>
                 </IonButtons>
               </IonItem>
-            ))}
+              );
+            })}
           </IonList>
         )}
       </IonContent>

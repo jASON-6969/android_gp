@@ -1,0 +1,3530 @@
+[
+  {
+    "english_name": "St. Paul's Co-educational College",
+    "chinese_name": "聖保羅男女中學",
+    "region": "中西區",
+    "english_index": 95.9,
+    "banding": "1A",
+    "ranking_range": "#1"
+  },
+  {
+    "english_name": "Queen's College",
+    "chinese_name": "皇仁書院",
+    "region": "灣仔",
+    "english_index": 96.8,
+    "banding": "1A",
+    "ranking_range": "#2 - #4"
+  },
+  {
+    "english_name": "Diocesan Girls' School",
+    "chinese_name": "拔萃女書院",
+    "region": "油尖旺",
+    "english_index": 95.8,
+    "banding": "1A",
+    "ranking_range": "#2 - #4"
+  },
+  {
+    "english_name": "Hong Kong Taoist Association Tang Hin Memorial Secondary School",
+    "chinese_name": "香港道教聯合會鄧顯紀念中學",
+    "region": "北區",
+    "english_index": 70.8,
+    "banding": "1A",
+    "ranking_range": "#2 - #4"
+  },
+  {
+    "english_name": "St. Paul's Convent School",
+    "chinese_name": "聖保祿學校",
+    "region": "灣仔",
+    "english_index": 96.1,
+    "banding": "1A",
+    "ranking_range": "#3 - #40"
+  },
+  {
+    "english_name": "S.K.H. Tsang Shiu Tim Secondary School",
+    "chinese_name": "聖公會曾肇添中學",
+    "region": "沙田",
+    "english_index": 73.2,
+    "banding": "1A",
+    "ranking_range": "#5 - #7"
+  },
+  {
+    "english_name": "Heep Yunn School",
+    "chinese_name": "協恩中學",
+    "region": "九龍城",
+    "english_index": 96.2,
+    "banding": "1A",
+    "ranking_range": "#5 - #9"
+  },
+  {
+    "english_name": "St. Paul's College",
+    "chinese_name": "聖保羅書院",
+    "region": "中西區",
+    "english_index": 81.6,
+    "banding": "1A",
+    "ranking_range": "#5 - #7"
+  },
+  {
+    "english_name": "Pui Kiu College",
+    "chinese_name": "培僑書院",
+    "region": "沙田",
+    "english_index": 72.8,
+    "banding": "1A",
+    "ranking_range": "#6 - #12"
+  },
+  {
+    "english_name": "Good Hope School",
+    "chinese_name": "德望學校",
+    "region": "黃大仙",
+    "english_index": 96.1,
+    "banding": "1A",
+    "ranking_range": "#6 - #12"
+  },
+  {
+    "english_name": "The True Light School of Hong Kong",
+    "chinese_name": "香港真光中學",
+    "region": "灣仔",
+    "english_index": 96.0,
+    "banding": "1A",
+    "ranking_range": "#8 - #16"
+  },
+  {
+    "english_name": "Maryknoll Convent School (Secondary Section)",
+    "chinese_name": "瑪利諾修院學校（中學部）",
+    "region": "九龍城",
+    "english_index": 96.6,
+    "banding": "1A",
+    "ranking_range": "#8 - #16"
+  },
+  {
+    "english_name": "Po Leung Kuk Tang Yuk Tien College",
+    "chinese_name": "保良局董玉娣中學",
+    "region": "屯門",
+    "english_index": 71.2,
+    "banding": "1A",
+    "ranking_range": "#10 - #22"
+  },
+  {
+    "english_name": "St. Stephen's Girls' College",
+    "chinese_name": "聖士提反女子中學",
+    "region": "中西區",
+    "english_index": 96.1,
+    "banding": "1A",
+    "ranking_range": "#10 - #22"
+  },
+  {
+    "english_name": "St. Mark's School",
+    "chinese_name": "聖馬可中學",
+    "region": "東區",
+    "english_index": 95.5,
+    "banding": "1A",
+    "ranking_range": "#10 - #20"
+  },
+  {
+    "english_name": "Queen Elizabeth School",
+    "chinese_name": "伊利沙伯中學",
+    "region": "油尖旺",
+    "english_index": 72.1,
+    "banding": "1A",
+    "ranking_range": "#10 - #22"
+  },
+  {
+    "english_name": "HKUGA College",
+    "chinese_name": "港大同學會書院",
+    "region": "南區",
+    "english_index": 72.6,
+    "banding": "1A",
+    "ranking_range": "#11 - #26"
+  },
+  {
+    "english_name": "Carmel Secondary School",
+    "chinese_name": "迦密中學",
+    "region": "九龍城",
+    "english_index": 73.7,
+    "banding": "1A",
+    "ranking_range": "#12 - #29"
+  },
+  {
+    "english_name": "Carmel Divine Grace Foundation Secondary School",
+    "chinese_name": "迦密主恩中學",
+    "region": "西貢",
+    "english_index": 73.5,
+    "banding": "1A",
+    "ranking_range": "#13 - #29"
+  },
+  {
+    "english_name": "Shatin Tsung Tsin Secondary School",
+    "chinese_name": "沙田崇真中學",
+    "region": "沙田",
+    "english_index": 84.5,
+    "banding": "1A",
+    "ranking_range": "#13 - #31"
+  },
+  {
+    "english_name": "Munsang College",
+    "chinese_name": "民生書院",
+    "region": "九龍城",
+    "english_index": 96.8,
+    "banding": "1A",
+    "ranking_range": "#14 - #32"
+  },
+  {
+    "english_name": "St. Joseph's College",
+    "chinese_name": "聖若瑟書院",
+    "region": "中西區",
+    "english_index": 96.5,
+    "banding": "1A",
+    "ranking_range": "#16 - #32"
+  },
+  {
+    "english_name": "Shung Tak Catholic English College",
+    "chinese_name": "天主教崇德英文書院",
+    "region": "元朗",
+    "english_index": 71.2,
+    "banding": "1A",
+    "ranking_range": "#16 - #32"
+  },
+  {
+    "english_name": "Baptist Lui Ming Choi Secondary School",
+    "chinese_name": "浸信會呂明才中學",
+    "region": "沙田",
+    "english_index": 71.0,
+    "banding": "1A",
+    "ranking_range": "#17 - #33"
+  },
+  {
+    "english_name": "Po Leung Kuk Centenary Li Shiu Chung Memorial College",
+    "chinese_name": "保良局百周年李兆忠紀念中學",
+    "region": "屯門",
+    "english_index": 73.0,
+    "banding": "1A",
+    "ranking_range": "#17 - #34"
+  },
+  {
+    "english_name": "Cheung Chuk Shan College",
+    "chinese_name": "張祝珊英文中學",
+    "region": "東區",
+    "english_index": 95.9,
+    "banding": "1A",
+    "ranking_range": "#17 - #35"
+  },
+  {
+    "english_name": "N.T. Heung Yee Kuk Yuen Long District Secondary School",
+    "chinese_name": "新界鄉議局元朗區中學",
+    "region": "元朗",
+    "english_index": 73.2,
+    "banding": "1A",
+    "ranking_range": "#18 - #36"
+  },
+  {
+    "english_name": "Belilios Public School",
+    "chinese_name": "庇理羅士女子中學",
+    "region": "東區",
+    "english_index": 96.8,
+    "banding": "1A",
+    "ranking_range": "#18 - #36"
+  },
+  {
+    "english_name": "Tsuen Wan Government Secondary School",
+    "chinese_name": "荃灣官立中學",
+    "region": "荃灣",
+    "english_index": 73.7,
+    "banding": "1A",
+    "ranking_range": "#18 - #35"
+  },
+  {
+    "english_name": "Kowloon True Light School",
+    "chinese_name": "九龍真光中學",
+    "region": "九龍城",
+    "english_index": 68.1,
+    "banding": "1A",
+    "ranking_range": "#19 - #42"
+  },
+  {
+    "english_name": "Ying Wa Girls' School",
+    "chinese_name": "英華女學校",
+    "region": "中西區",
+    "english_index": 95.3,
+    "banding": "1A",
+    "ranking_range": "#19 - #37"
+  },
+  {
+    "english_name": "Hong Kong Chinese Women's Club College",
+    "chinese_name": "香港中國婦女會中學",
+    "region": "東區",
+    "english_index": 96.7,
+    "banding": "1A",
+    "ranking_range": "#19 - #37"
+  },
+  {
+    "english_name": "Bishop Hall Jubilee School",
+    "chinese_name": "何明華會督銀禧中學",
+    "region": "九龍城",
+    "english_index": 96.9,
+    "banding": "1A",
+    "ranking_range": "#20 - #41"
+  },
+  {
+    "english_name": "Wa Ying College",
+    "chinese_name": "華英中學",
+    "region": "九龍城",
+    "english_index": 70.6,
+    "banding": "1A",
+    "ranking_range": "#20 - #37"
+  },
+  {
+    "english_name": "Buddhist Sin Tak College",
+    "chinese_name": "佛教善德英文中學",
+    "region": "葵青",
+    "english_index": 69.1,
+    "banding": "1A",
+    "ranking_range": "#24 - #41"
+  },
+  {
+    "english_name": "United Christian College (Kowloon East)",
+    "chinese_name": "滙基書院（東九龍）",
+    "region": "觀塘",
+    "english_index": 84.1,
+    "banding": "1A",
+    "ranking_range": "#27 - #40"
+  },
+  {
+    "english_name": "St. Paul's School (Lam Tin)",
+    "chinese_name": "藍田聖保祿中學",
+    "region": "觀塘",
+    "english_index": 96.0,
+    "banding": "1B–1A",
+    "ranking_range": "#28 - #78"
+  },
+  {
+    "english_name": "La Salle College",
+    "chinese_name": "喇沙書院",
+    "region": "九龍城",
+    "english_index": 96.8,
+    "banding": "1B–1A",
+    "ranking_range": "#28 - #78"
+  },
+  {
+    "english_name": "St. Catharine's School for Girls",
+    "chinese_name": "聖傑靈女子中學",
+    "region": "觀塘",
+    "english_index": 71.6,
+    "banding": "1B–1A",
+    "ranking_range": "#28 - #78"
+  },
+  {
+    "english_name": "S.K.H. Lam Woo Memorial Secondary School",
+    "chinese_name": "聖公會林護紀念中學",
+    "region": "葵青",
+    "english_index": 94.7,
+    "banding": "1A",
+    "ranking_range": "#28 - #41"
+  },
+  {
+    "english_name": "St. Catharine's School for Girls",
+    "chinese_name": "聖傑靈女子中學",
+    "region": "觀塘",
+    "english_index": 71.6,
+    "banding": "1B–1A",
+    "ranking_range": "#28 - #78"
+  },
+  {
+    "english_name": "Our Lady of The Rosary College",
+    "chinese_name": "聖母玫瑰書院",
+    "region": "深水埗",
+    "english_index": 74.3,
+    "banding": "1B–1A",
+    "ranking_range": "#28 - #78"
+  },
+  {
+    "english_name": "Daughters of Mary Help of Christians Siu Ming Catholic Secondary School",
+    "chinese_name": "天主教母佑會蕭明中學",
+    "region": "葵青",
+    "english_index": 69.7,
+    "banding": "1B–1A",
+    "ranking_range": "#28 - #78"
+  },
+  {
+    "english_name": "Holy Trinity College",
+    "chinese_name": "寶血會上智英文書院",
+    "region": "深水埗",
+    "english_index": 96.6,
+    "banding": "1B–1A",
+    "ranking_range": "#28 - #78"
+  },
+  {
+    "english_name": "St. Mary's Canossian College",
+    "chinese_name": "嘉諾撒聖瑪利書院",
+    "region": "油尖旺",
+    "english_index": 96.6,
+    "banding": "1B–1A",
+    "ranking_range": "#28 - #78"
+  },
+  {
+    "english_name": "Wah Yan College Hong Kong",
+    "chinese_name": "香港華仁書院",
+    "region": "灣仔",
+    "english_index": 96.6,
+    "banding": "1B–1A",
+    "ranking_range": "#28 - #78"
+  },
+  {
+    "english_name": "La Salle College",
+    "chinese_name": "喇沙書院",
+    "region": "九龍城",
+    "english_index": 96.8,
+    "banding": "1B–1A",
+    "ranking_range": "#28 - #78"
+  },
+  {
+    "english_name": "S.K.H. Lam Woo Memorial Secondary School",
+    "chinese_name": "聖公會林護紀念中學",
+    "region": "葵青",
+    "english_index": 94.7,
+    "banding": "1A",
+    "ranking_range": "#28 - #41"
+  },
+  {
+    "english_name": "S.K.H. Lam Kau Mow Secondary School",
+    "chinese_name": "聖公會林裘謀中學",
+    "region": "沙田",
+    "english_index": 73.3,
+    "banding": "1A",
+    "ranking_range": "#31 - #44"
+  },
+  {
+    "english_name": "Shatin Pui Ying College",
+    "chinese_name": "沙田培英中學",
+    "region": "沙田",
+    "english_index": 70.4,
+    "banding": "1A",
+    "ranking_range": "#33 - #44"
+  },
+  {
+    "english_name": "Shatin Pui Ying College",
+    "chinese_name": "沙田培英中學",
+    "region": "沙田",
+    "english_index": 70.4,
+    "banding": "1A",
+    "ranking_range": "#33 - #44"
+  },
+  {
+    "english_name": "Christian Alliance S. C. Chan Memorial College",
+    "chinese_name": "香港九龍塘基督教中華宣道會陳瑞芝紀念中學",
+    "region": "屯門",
+    "english_index": 73.5,
+    "banding": "1B–1A",
+    "ranking_range": "#36 - #44"
+  },
+  {
+    "english_name": "Hoi Ping Chamber of Commerce Secondary School",
+    "chinese_name": "旅港開平商會中學",
+    "region": "九龍城",
+    "english_index": 95.9,
+    "banding": "1B–1A",
+    "ranking_range": "#38 - #45"
+  },
+  {
+    "english_name": "Ying Wa College",
+    "chinese_name": "英華書院",
+    "region": "深水埗",
+    "english_index": 70.7,
+    "banding": "1B–1A",
+    "ranking_range": "#38 - #45"
+  },
+  {
+    "english_name": "Pui Ching Middle School",
+    "chinese_name": "香港培正中學",
+    "region": "九龍城",
+    "english_index": 0.0,
+    "banding": "1B–1A",
+    "ranking_range": "#38 - #57"
+  },
+  {
+    "english_name": "The ELCHK Yuen Long Lutheran Secondary School",
+    "chinese_name": "基督教香港信義會元朗信義中學",
+    "region": "元朗",
+    "english_index": 69.1,
+    "banding": "1B–1A",
+    "ranking_range": "#42 - #59"
+  },
+  {
+    "english_name": "Po Leung Kuk No.1 W.H. Cheung College",
+    "chinese_name": "保良局第一張永慶中學",
+    "region": "黃大仙",
+    "english_index": 73.5,
+    "banding": "1B–1A",
+    "ranking_range": "#45 - #61"
+  },
+  {
+    "english_name": "Munsang College (Hong Kong Island)",
+    "chinese_name": "港島民生書院",
+    "region": "東區",
+    "english_index": 71.6,
+    "banding": "1B–1A",
+    "ranking_range": "#45 - #65"
+  },
+  {
+    "english_name": "Raimondi College",
+    "chinese_name": "高主教書院",
+    "region": "中西區",
+    "english_index": 72.1,
+    "banding": "1B–1A",
+    "ranking_range": "#46 - #71"
+  },
+  {
+    "english_name": "Kwok Tak Seng Catholic Secondary School",
+    "chinese_name": "天主教郭得勝中學",
+    "region": "沙田",
+    "english_index": 70.5,
+    "banding": "1B–1A",
+    "ranking_range": "#46 - #73"
+  },
+  {
+    "english_name": "Stewards MKMCF Ma Ko Pan Memorial College",
+    "chinese_name": "馬錦明慈善基金馬可賓紀念中學",
+    "region": "屯門",
+    "english_index": 70.5,
+    "banding": "1B–1A",
+    "ranking_range": "#46 - #71"
+  },
+  {
+    "english_name": "Ho Fung College (Sponsored by Sik Sik Yuen)",
+    "chinese_name": "可風中學（嗇色園主辦）",
+    "region": "荃灣",
+    "english_index": 72.3,
+    "banding": "1B–1A",
+    "ranking_range": "#46 - #70"
+  },
+  {
+    "english_name": "Raimondi College",
+    "chinese_name": "高主教書院",
+    "region": "中西區",
+    "english_index": 72.1,
+    "banding": "1B–1A",
+    "ranking_range": "#46 - #71"
+  },
+  {
+    "english_name": "Kwok Tak Seng Catholic Secondary School",
+    "chinese_name": "天主教郭得勝中學",
+    "region": "沙田",
+    "english_index": 70.5,
+    "banding": "1B–1A",
+    "ranking_range": "#46 - #73"
+  },
+  {
+    "english_name": "CNEC Christian College",
+    "chinese_name": "中華傳道會安柱中學",
+    "region": "葵青",
+    "english_index": 73.5,
+    "banding": "1B–1A",
+    "ranking_range": "#58 - #71"
+  },
+  {
+    "english_name": "Po Leung Kuk Celine Ho Yam Tong College",
+    "chinese_name": "保良局何蔭棠中學",
+    "region": "黃大仙",
+    "english_index": 72.6,
+    "banding": "1B–1A",
+    "ranking_range": "#58 - #72"
+  },
+  {
+    "english_name": "Christian & Missionary Alliance Sun Kei Secondary School",
+    "chinese_name": "基督教宣道會宣基中學",
+    "region": "西貢",
+    "english_index": 68.1,
+    "banding": "1B–1A",
+    "ranking_range": "#59 - #72"
+  },
+  {
+    "english_name": "SKH Bishop Mok Sau Tseng Secondary School",
+    "chinese_name": "聖公會莫壽增會督中學",
+    "region": "大埔",
+    "english_index": 69.4,
+    "banding": "1B–1A",
+    "ranking_range": "#60 - #71"
+  },
+  {
+    "english_name": "St. Rose of Lima's College",
+    "chinese_name": "聖羅撒書院",
+    "region": "沙田",
+    "english_index": 96.1,
+    "banding": "1B",
+    "ranking_range": "#61 - #76"
+  },
+  {
+    "english_name": "Po Leung Kuk Ngan Po Ling College",
+    "chinese_name": "保良局顏寶鈴書院",
+    "region": "九龍城",
+    "english_index": 96.8,
+    "banding": "1B",
+    "ranking_range": "#61 - #73"
+  },
+  {
+    "english_name": "Fukien Secondary School",
+    "chinese_name": "福建中學",
+    "region": "觀塘",
+    "english_index": 37.0,
+    "banding": "1B",
+    "ranking_range": "#61 - #74"
+  },
+  {
+    "english_name": "Kiangsu-Chekiang College (Shatin)",
+    "chinese_name": "沙田蘇浙公學",
+    "region": "沙田",
+    "english_index": 73.3,
+    "banding": "1B",
+    "ranking_range": "#67 - #79"
+  },
+  {
+    "english_name": "Sacred Heart Canossian College",
+    "chinese_name": "嘉諾撒聖心書院",
+    "region": "南區",
+    "english_index": 95.9,
+    "banding": "1B",
+    "ranking_range": "#69 - #80"
+  },
+  {
+    "english_name": "TWGHs Kap Yan Directors' College",
+    "chinese_name": "東華三院甲寅年總理中學",
+    "region": "北區",
+    "english_index": 70.8,
+    "banding": "1B",
+    "ranking_range": "#69 - #83"
+  },
+  {
+    "english_name": "CCC Ming Kei College",
+    "chinese_name": "中華基督教會銘基書院",
+    "region": "油尖旺",
+    "english_index": 72.1,
+    "banding": "1B",
+    "ranking_range": "#70 - #109"
+  },
+  {
+    "english_name": "St. Francis Xavier's College",
+    "chinese_name": "聖芳濟書院",
+    "region": "油尖旺",
+    "english_index": 70.8,
+    "banding": "1B",
+    "ranking_range": "#70 - #109"
+  },
+  {
+    "english_name": "St. Stephen's College",
+    "chinese_name": "聖士提反書院",
+    "region": "南區",
+    "english_index": 93.9,
+    "banding": "1B",
+    "ranking_range": "#70 - #109"
+  },
+  {
+    "english_name": "CCC Heep Woh College",
+    "chinese_name": "中華基督教會協和書院",
+    "region": "黃大仙",
+    "english_index": 72.6,
+    "banding": "1B",
+    "ranking_range": "#70 - #109"
+  },
+  {
+    "english_name": "CCC Ming Yin College",
+    "chinese_name": "中華基督教會銘賢書院",
+    "region": "深水埗",
+    "english_index": 72.5,
+    "banding": "1B",
+    "ranking_range": "#70 - #80"
+  },
+  {
+    "english_name": "Evangel College",
+    "chinese_name": "播道書院",
+    "region": "西貢",
+    "english_index": 73.4,
+    "banding": "1B",
+    "ranking_range": "#70 - #109"
+  },
+  {
+    "english_name": "St. Stephen's College",
+    "chinese_name": "聖士提反書院",
+    "region": "南區",
+    "english_index": 93.9,
+    "banding": "1B",
+    "ranking_range": "#70 - #109"
+  },
+  {
+    "english_name": "G.T. (Ellen Yeung) College",
+    "chinese_name": "優才（楊殷有娣）書院",
+    "region": "西貢",
+    "english_index": 68.3,
+    "banding": "1B",
+    "ranking_range": "#70 - #109"
+  },
+  {
+    "english_name": "Valtorta College",
+    "chinese_name": "恩主教書院",
+    "region": "大埔",
+    "english_index": 72.5,
+    "banding": "1B",
+    "ranking_range": "#70 - #109"
+  },
+  {
+    "english_name": "Holy Family Canossian College",
+    "chinese_name": "嘉諾撒聖家書院",
+    "region": "九龍城",
+    "english_index": 93.3,
+    "banding": "1B",
+    "ranking_range": "#70 - #109"
+  },
+  {
+    "english_name": "Pope Paul VI College",
+    "chinese_name": "保祿六世書院",
+    "region": "葵青",
+    "english_index": 71.0,
+    "banding": "1B",
+    "ranking_range": "#70 - #109"
+  },
+  {
+    "english_name": "Heung To Middle School",
+    "chinese_name": "香島中學",
+    "region": "深水埗",
+    "english_index": 57.4,
+    "banding": "1B",
+    "ranking_range": "#70 - #109"
+  },
+  {
+    "english_name": "Tin Ka Ping Secondary School",
+    "chinese_name": "田家炳中學",
+    "region": "北區",
+    "english_index": 73.2,
+    "banding": "1B",
+    "ranking_range": "#71 - #82"
+  },
+  {
+    "english_name": "Sha Tin Government Secondary School",
+    "chinese_name": "沙田官立中學",
+    "region": "沙田",
+    "english_index": 73.5,
+    "banding": "1",
+    "ranking_range": "#71 - #113"
+  },
+  {
+    "english_name": "Shun Tak Fraternal Association Leung Kau Kui College",
+    "chinese_name": "順德聯誼總會梁銶琚中學",
+    "region": "屯門",
+    "english_index": 72.1,
+    "banding": "1B",
+    "ranking_range": "#72 - #85"
+  },
+  {
+    "english_name": "St. Paul's Secondary School",
+    "chinese_name": "聖保祿中學",
+    "region": "灣仔",
+    "english_index": 96.1,
+    "banding": "1B",
+    "ranking_range": "#72 - #83"
+  },
+  {
+    "english_name": "Shun Tak Fraternal Association Leung Kau Kui College",
+    "chinese_name": "順德聯誼總會梁銶琚中學",
+    "region": "屯門",
+    "english_index": 72.1,
+    "banding": "1B",
+    "ranking_range": "#72 - #85"
+  },
+  {
+    "english_name": "St. Paul's Secondary School",
+    "chinese_name": "聖保祿中學",
+    "region": "灣仔",
+    "english_index": 96.1,
+    "banding": "1B",
+    "ranking_range": "#72 - #83"
+  },
+  {
+    "english_name": "Tsung Tsin Christian Academy",
+    "chinese_name": "基督教崇真中學",
+    "region": "深水埗",
+    "english_index": 85.1,
+    "banding": "1",
+    "ranking_range": "#74 - #104"
+  },
+  {
+    "english_name": "Sha Tin Methodist College",
+    "chinese_name": "沙田循道衞理中學",
+    "region": "沙田",
+    "english_index": 72.3,
+    "banding": "1B",
+    "ranking_range": "#75 - #85"
+  },
+  {
+    "english_name": "PLK Laws Foundation College",
+    "chinese_name": "保良局羅氏基金中學",
+    "region": "西貢",
+    "english_index": 83.1,
+    "banding": "1B",
+    "ranking_range": "#75 - #85"
+  },
+  {
+    "english_name": "Shun Lee Catholic Secondary School",
+    "chinese_name": "順利天主教中學",
+    "region": "觀塘",
+    "english_index": 71.5,
+    "banding": "1B",
+    "ranking_range": "#78 - #98"
+  },
+  {
+    "english_name": "King Ling College",
+    "chinese_name": "景嶺書院",
+    "region": "西貢",
+    "english_index": 96.0,
+    "banding": "1B",
+    "ranking_range": "#81 - #102"
+  },
+  {
+    "english_name": "S.K.H. Tang Shiu Kin Secondary School",
+    "chinese_name": "聖公會鄧肇堅中學",
+    "region": "灣仔",
+    "english_index": 73.5,
+    "banding": "1B",
+    "ranking_range": "#81 - #100"
+  },
+  {
+    "english_name": "Diocesan Boys' School",
+    "chinese_name": "拔萃男書院",
+    "region": "九龍城",
+    "english_index": 96.5,
+    "banding": "1",
+    "ranking_range": "#83 - #105"
+  },
+  {
+    "english_name": "Shun Tak Fraternal Association Tam Pak Yu College",
+    "chinese_name": "順德聯誼總會譚伯羽中學",
+    "region": "屯門",
+    "english_index": 29.1,
+    "banding": "1B",
+    "ranking_range": "#83 - #108"
+  },
+  {
+    "english_name": "Po On Commercial Association Wong Siu Ching Secondary School",
+    "chinese_name": "寶安商會王少清中學",
+    "region": "荃灣",
+    "english_index": 69.3,
+    "banding": "1B",
+    "ranking_range": "#85 - #108"
+  },
+  {
+    "english_name": "St. Clare's Girls' School",
+    "chinese_name": "聖嘉勒女書院",
+    "region": "中西區",
+    "english_index": 96.4,
+    "banding": "1B",
+    "ranking_range": "#86 - #108"
+  },
+  {
+    "english_name": "The Chinese Foundation Secondary School",
+    "chinese_name": "中華基金中學",
+    "region": "東區",
+    "english_index": 96.1,
+    "banding": "1B",
+    "ranking_range": "#86 - #108"
+  },
+  {
+    "english_name": "Elegantia College (Sponsored by Education Convergence)",
+    "chinese_name": "風采中學（教育評議會主辦）",
+    "region": "北區",
+    "english_index": 59.5,
+    "banding": "1B",
+    "ranking_range": "#99 - #109"
+  },
+  {
+    "english_name": "Wong Shiu Chi Secondary School",
+    "chinese_name": "王肇枝中學",
+    "region": "大埔",
+    "english_index": 71.4,
+    "banding": "1B",
+    "ranking_range": "#100 - #109"
+  },
+  {
+    "english_name": "Tsuen Wan Public Ho Chuen Yiu Memorial College",
+    "chinese_name": "荃灣公立何傳耀紀念中學",
+    "region": "荃灣",
+    "english_index": 71.5,
+    "banding": "1B",
+    "ranking_range": "#100 - #109"
+  },
+  {
+    "english_name": "HKMA David Li Kwok Po College",
+    "chinese_name": "香港管理專業協會李國寶中學",
+    "region": "油尖旺",
+    "english_index": 85.4,
+    "banding": "1B",
+    "ranking_range": "#100 - #109"
+  },
+  {
+    "english_name": "True Light Girls' College",
+    "chinese_name": "真光女書院",
+    "region": "油尖旺",
+    "english_index": 95.9,
+    "banding": "1B",
+    "ranking_range": "#101 - #109"
+  },
+  {
+    "english_name": "Kwun Tong Maryknoll College",
+    "chinese_name": "觀塘瑪利諾書院",
+    "region": "觀塘",
+    "english_index": 72.8,
+    "banding": "1B",
+    "ranking_range": "#104 - #109"
+  },
+  {
+    "english_name": "The Y.W.C.A. Hioe Tjo Yoeng College",
+    "chinese_name": "基督教女青年會丘佐榮中學",
+    "region": "九龍城",
+    "english_index": 74.6,
+    "banding": "1C–1B",
+    "ranking_range": "#109 - #131"
+  },
+  {
+    "english_name": "The Y.W.C.A. Hioe Tjo Yoeng College",
+    "chinese_name": "基督教女青年會丘佐榮中學",
+    "region": "九龍城",
+    "english_index": 74.6,
+    "banding": "1C–1B",
+    "ranking_range": "#109 - #131"
+  },
+  {
+    "english_name": "Po Leung Kuk Lo Kit Sing (1983) College",
+    "chinese_name": "保良局羅傑承（一九八三）中學",
+    "region": "葵青",
+    "english_index": 68.4,
+    "banding": "1C–1B",
+    "ranking_range": "#109 - #131"
+  },
+  {
+    "english_name": "Pooi To Middle School",
+    "chinese_name": "香港培道中學",
+    "region": "九龍城",
+    "english_index": 58.2,
+    "banding": "1C–1B",
+    "ranking_range": "#109 - #131"
+  },
+  {
+    "english_name": "Canossa College",
+    "chinese_name": "嘉諾撒書院",
+    "region": "東區",
+    "english_index": 82.5,
+    "banding": "1C–1B",
+    "ranking_range": "#109 - #131"
+  },
+  {
+    "english_name": "TWGHs Chen Zao Men College",
+    "chinese_name": "東華三院陳兆民中學",
+    "region": "葵青",
+    "english_index": 71.2,
+    "banding": "1C–1B",
+    "ranking_range": "#109 - #131"
+  },
+  {
+    "english_name": "Jockey Club Ti-I College",
+    "chinese_name": "賽馬會體藝中學",
+    "region": "沙田",
+    "english_index": 95.9,
+    "banding": "1C–1B",
+    "ranking_range": "#109 - #131"
+  },
+  {
+    "english_name": "Ho Lap College (Sponsored by the Sik Sik Yuen)",
+    "chinese_name": "可立中學（嗇色園主辦）",
+    "region": "黃大仙",
+    "english_index": 95.9,
+    "banding": "1C–1B",
+    "ranking_range": "#109 - #131"
+  },
+  {
+    "english_name": "CCC Kei Yuen College",
+    "chinese_name": "中華基督教會基元中學",
+    "region": "元朗",
+    "english_index": 67.2,
+    "banding": "1C–1B",
+    "ranking_range": "#109 - #131"
+  },
+  {
+    "english_name": "Pentecostal Lam Hon Kwong School",
+    "chinese_name": "五旬節林漢光中學",
+    "region": "沙田",
+    "english_index": 69.1,
+    "banding": "1C–1B",
+    "ranking_range": "#109 - #131"
+  },
+  {
+    "english_name": "Shau Kei Wan Government Secondary School",
+    "chinese_name": "筲箕灣官立中學",
+    "region": "東區",
+    "english_index": 73.5,
+    "banding": "1C–1B",
+    "ranking_range": "#109 - #131"
+  },
+  {
+    "english_name": "The Y.W.C.A. Hioe Tjo Yoeng College",
+    "chinese_name": "基督教女青年會丘佐榮中學",
+    "region": "九龍城",
+    "english_index": 74.6,
+    "banding": "1C–1B",
+    "ranking_range": "#109 - #131"
+  },
+  {
+    "english_name": "S.K.H. Lui Ming Choi Secondary School",
+    "chinese_name": "聖公會呂明才中學",
+    "region": "南區",
+    "english_index": 70.6,
+    "banding": "1C–1B",
+    "ranking_range": "#109 - #131"
+  },
+  {
+    "english_name": "Cheung Sha Wan Catholic Secondary School",
+    "chinese_name": "長沙灣天主教英文中學",
+    "region": "深水埗",
+    "english_index": 93.8,
+    "banding": "1C–1B",
+    "ranking_range": "#109 - #131"
+  },
+  {
+    "english_name": "HKBU Affiliated School Wong Kam Fai Secondary & Primary School",
+    "chinese_name": "香港浸會大學附屬學校王錦輝中小學",
+    "region": "沙田",
+    "english_index": 85.4,
+    "banding": "1C–1B",
+    "ranking_range": "#109 - #131"
+  },
+  {
+    "english_name": "St. Louis School",
+    "chinese_name": "聖類斯中學",
+    "region": "中西區",
+    "english_index": 82.7,
+    "banding": "1C–1B",
+    "ranking_range": "#109 - #131"
+  },
+  {
+    "english_name": "Tak Oi Secondary School",
+    "chinese_name": "德愛中學",
+    "region": "黃大仙",
+    "english_index": 96.5,
+    "banding": "1C–1B",
+    "ranking_range": "#109 - #131"
+  },
+  {
+    "english_name": "Stewards Pooi Kei College",
+    "chinese_name": "香港神託會培基書院",
+    "region": "沙田",
+    "english_index": 71.5,
+    "banding": "1C–1B",
+    "ranking_range": "#110"
+  },
+  {
+    "english_name": "Tuen Mun Government Secondary School",
+    "chinese_name": "屯門官立中學",
+    "region": "屯門",
+    "english_index": 72.2,
+    "banding": "1C–1B",
+    "ranking_range": "#111 - #131"
+  },
+  {
+    "english_name": "Methodist College",
+    "chinese_name": "循道中學",
+    "region": "油尖旺",
+    "english_index": 71.1,
+    "banding": "1C–1B",
+    "ranking_range": "#129 - #131"
+  },
+  {
+    "english_name": "Chiu Lut Sau Memorial Secondary School",
+    "chinese_name": "趙聿修紀念中學",
+    "region": "元朗",
+    "english_index": 71.0,
+    "banding": "1C",
+    "ranking_range": "#129 - #131"
+  },
+  {
+    "english_name": "SALEM-Immanuel Lutheran College",
+    "chinese_name": "南亞路德會沐恩中學",
+    "region": "大埔",
+    "english_index": 69.9,
+    "banding": "1C",
+    "ranking_range": "#131 - #143"
+  },
+  {
+    "english_name": "The Hong Kong Management Association K. S. Lo College",
+    "chinese_name": "香港管理專業協會羅桂祥中學",
+    "region": "元朗",
+    "english_index": 49.4,
+    "banding": "1C",
+    "ranking_range": "#131 - #143"
+  },
+  {
+    "english_name": "S.K.H. Chan Young Secondary School",
+    "chinese_name": "聖公會陳融中學",
+    "region": "北區",
+    "english_index": 67.1,
+    "banding": "1C",
+    "ranking_range": "#131 - #143"
+  },
+  {
+    "english_name": "Chan Sui Ki (La Salle) College",
+    "chinese_name": "陳瑞祺（喇沙）書院",
+    "region": "九龍城",
+    "english_index": 70.0,
+    "banding": "1C",
+    "ranking_range": "#131 - #143"
+  },
+  {
+    "english_name": "HKFYG Lee Shau Kee College",
+    "chinese_name": "香港青年協會李兆基書院",
+    "region": "元朗",
+    "english_index": 72.5,
+    "banding": "1C",
+    "ranking_range": "#131 - #143"
+  },
+  {
+    "english_name": "St. Francis' Canossian College",
+    "chinese_name": "嘉諾撒聖方濟各書院",
+    "region": "灣仔",
+    "english_index": 96.7,
+    "banding": "1C",
+    "ranking_range": "#131 - #143"
+  },
+  {
+    "english_name": "NLSI Lui Kwok Pat Fong College",
+    "chinese_name": "新生命教育協會呂郭碧鳳中學",
+    "region": "觀塘",
+    "english_index": 70.7,
+    "banding": "1C",
+    "ranking_range": "#131 - #143"
+  },
+  {
+    "english_name": "Tung Wah Group of Hospitals Lo Kon Ting Memorial College",
+    "chinese_name": "東華三院盧幹庭紀念中學",
+    "region": "元朗",
+    "english_index": 69.4,
+    "banding": "1C",
+    "ranking_range": "#131 - #143"
+  },
+  {
+    "english_name": "St. Bonaventure College & High School",
+    "chinese_name": "聖文德書院",
+    "region": "黃大仙",
+    "english_index": 43.5,
+    "banding": "1C",
+    "ranking_range": "#131 - #143"
+  },
+  {
+    "english_name": "Yuen Long Merchants Association Secondary School",
+    "chinese_name": "元朗商會中學",
+    "region": "元朗",
+    "english_index": 74.0,
+    "banding": "1C",
+    "ranking_range": "#131 - #143"
+  },
+  {
+    "english_name": "Tung Wah Group of Hospitals Lo Kon Ting Memorial College",
+    "chinese_name": "東華三院盧幹庭紀念中學",
+    "region": "元朗",
+    "english_index": 69.4,
+    "banding": "1C",
+    "ranking_range": "#131 - #143"
+  },
+  {
+    "english_name": "Ning Po College",
+    "chinese_name": "寧波公學",
+    "region": "觀塘",
+    "english_index": 0.0,
+    "banding": "1C",
+    "ranking_range": "#131 - #143"
+  },
+  {
+    "english_name": "Christ College",
+    "chinese_name": "基督書院",
+    "region": "沙田",
+    "english_index": 21.2,
+    "banding": "2",
+    "ranking_range": "#142 - #160"
+  },
+  {
+    "english_name": "HKCCCU Logos Academy",
+    "chinese_name": "香港華人基督教聯會真道書院",
+    "region": "西貢",
+    "english_index": 73.2,
+    "banding": "2A–1C",
+    "ranking_range": "#144 - #152"
+  },
+  {
+    "english_name": "Christian Alliance Cheng Wing Gee College",
+    "chinese_name": "香港九龍塘基督教中華宣道會鄭榮之中學",
+    "region": "沙田",
+    "english_index": 69.6,
+    "banding": "2A–1C",
+    "ranking_range": "#144 - #152"
+  },
+  {
+    "english_name": "Kwun Tong Government Secondary School",
+    "chinese_name": "觀塘官立中學",
+    "region": "觀塘",
+    "english_index": 73.2,
+    "banding": "2A–1C",
+    "ranking_range": "#144 - #152"
+  },
+  {
+    "english_name": "S.K.H. Bishop Baker Secondary School",
+    "chinese_name": "聖公會白約翰會督中學",
+    "region": "元朗",
+    "english_index": 66.5,
+    "banding": "2A–1C",
+    "ranking_range": "#144 - #152"
+  },
+  {
+    "english_name": "Tuen Mun Catholic Secondary School",
+    "chinese_name": "屯門天主教中學",
+    "region": "屯門",
+    "english_index": 58.5,
+    "banding": "2A–1C",
+    "ranking_range": "#144 - #152"
+  },
+  {
+    "english_name": "Ma On Shan St. Joseph's Secondary School",
+    "chinese_name": "馬鞍山聖若瑟中學",
+    "region": "沙田",
+    "english_index": 27.4,
+    "banding": "2A–1C",
+    "ranking_range": "#144 - #152"
+  },
+  {
+    "english_name": "Maryknoll Fathers' School",
+    "chinese_name": "瑪利諾神父教會學校",
+    "region": "深水埗",
+    "english_index": 82.6,
+    "banding": "2A–1C",
+    "ranking_range": "#144 - #152"
+  },
+  {
+    "english_name": "Kwun Tong Government Secondary School",
+    "chinese_name": "觀塘官立中學",
+    "region": "觀塘",
+    "english_index": 73.2,
+    "banding": "2A–1C",
+    "ranking_range": "#144 - #152"
+  },
+  {
+    "english_name": "CNEC Lau Wing Sang Secondary School",
+    "chinese_name": "中華傳道會劉永生中學",
+    "region": "東區",
+    "english_index": 44.5,
+    "banding": "2A–1C",
+    "ranking_range": "#146 - #151"
+  },
+  {
+    "english_name": "Liu Po Shan Memorial College",
+    "chinese_name": "廖寶珊紀念書院",
+    "region": "荃灣",
+    "english_index": 56.6,
+    "banding": "2",
+    "ranking_range": "#148 - #162"
+  },
+  {
+    "english_name": "South Tuen Mun Government Secondary School",
+    "chinese_name": "南屯門官立中學",
+    "region": "屯門",
+    "english_index": 70.6,
+    "banding": "2",
+    "ranking_range": "#148 - #162"
+  },
+  {
+    "english_name": "Immaculate Heart of Mary College",
+    "chinese_name": "聖母無玷聖心書院",
+    "region": "沙田",
+    "english_index": 72.5,
+    "banding": "2",
+    "ranking_range": "#150 - #170"
+  },
+  {
+    "english_name": "HKMLC Queen Maud Secondary School",
+    "chinese_name": "港澳信義會慕德中學",
+    "region": "西貢",
+    "english_index": 49.0,
+    "banding": "2",
+    "ranking_range": "#150 - #170"
+  },
+  {
+    "english_name": "Leung Shek Chee College",
+    "chinese_name": "梁式芝書院",
+    "region": "觀塘",
+    "english_index": 70.0,
+    "banding": "2",
+    "ranking_range": "#152 - #173"
+  },
+  {
+    "english_name": "Madam Lau Kam Lung Secondary School of Miu Fat Buddhist Monastery",
+    "chinese_name": "妙法寺劉金龍中學",
+    "region": "屯門",
+    "english_index": 64.8,
+    "banding": "2",
+    "ranking_range": "#152 - #173"
+  },
+  {
+    "english_name": "Yan Chai Hospital Law Chan Chor Si College",
+    "chinese_name": "仁濟醫院羅陳楚思中學",
+    "region": "觀塘",
+    "english_index": 16.0,
+    "banding": "2",
+    "ranking_range": "#152 - #173"
+  },
+  {
+    "english_name": "Po Leung Kuk Lee Shing Pik College",
+    "chinese_name": "保良局李城璧中學",
+    "region": "荃灣",
+    "english_index": 59.3,
+    "banding": "2A",
+    "ranking_range": "#153 - #174"
+  },
+  {
+    "english_name": "Yan Chai Hospital Wong Wha San Secondary School",
+    "chinese_name": "仁濟醫院王華湘中學",
+    "region": "西貢",
+    "english_index": 50.2,
+    "banding": "2A",
+    "ranking_range": "#153 - #174"
+  },
+  {
+    "english_name": "Pui Kiu Middle School",
+    "chinese_name": "培僑中學",
+    "region": "東區",
+    "english_index": 19.6,
+    "banding": "2A",
+    "ranking_range": "#153 - #174"
+  },
+  {
+    "english_name": "Shun Tak Fraternal Association Yung Yau College",
+    "chinese_name": "順德聯誼總會翁祐中學",
+    "region": "元朗",
+    "english_index": 46.6,
+    "banding": "2A",
+    "ranking_range": "#153 - #174"
+  },
+  {
+    "english_name": "Ma On Shan Tsung Tsin Secondary School",
+    "chinese_name": "馬鞍山崇真中學",
+    "region": "沙田",
+    "english_index": 59.6,
+    "banding": "2A",
+    "ranking_range": "#153 - #174"
+  },
+  {
+    "english_name": "Homantin Government Secondary School",
+    "chinese_name": "何文田官立中學",
+    "region": "九龍城",
+    "english_index": 41.5,
+    "banding": "2A",
+    "ranking_range": "#153 - #174"
+  },
+  {
+    "english_name": "Salesian English School",
+    "chinese_name": "慈幼英文學校",
+    "region": "東區",
+    "english_index": 52.9,
+    "banding": "2A",
+    "ranking_range": "#153 - #174"
+  },
+  {
+    "english_name": "PLK Mrs. Ma Kam Ming-Cheung Fook Sien College",
+    "chinese_name": "保良局馬錦明夫人章馥仙中學",
+    "region": "離島區",
+    "english_index": 66.9,
+    "banding": "2A",
+    "ranking_range": "#153 - #174"
+  },
+  {
+    "english_name": "Tseung Kwan O Government Secondary School",
+    "chinese_name": "將軍澳官立中學",
+    "region": "西貢",
+    "english_index": 66.9,
+    "banding": "2A",
+    "ranking_range": "#153 - #174"
+  },
+  {
+    "english_name": "TWGHs Lui Yun Choy Memorial College",
+    "chinese_name": "東華三院呂潤財紀念中學",
+    "region": "西貢",
+    "english_index": 34.7,
+    "banding": "2A",
+    "ranking_range": "#153 - #174"
+  },
+  {
+    "english_name": "TWGHs Chang Ming Thien College",
+    "chinese_name": "東華三院張明添中學",
+    "region": "深水埗",
+    "english_index": 53.9,
+    "banding": "2A",
+    "ranking_range": "#153 - #174"
+  },
+  {
+    "english_name": "PLK Mrs. Ma Kam Ming-Cheung Fook Sien College",
+    "chinese_name": "保良局馬錦明夫人章馥仙中學",
+    "region": "離島區",
+    "english_index": 66.9,
+    "banding": "2A",
+    "ranking_range": "#153 - #174"
+  },
+  {
+    "english_name": "Salesian English School",
+    "chinese_name": "慈幼英文學校",
+    "region": "東區",
+    "english_index": 52.9,
+    "banding": "2A",
+    "ranking_range": "#153 - #174"
+  },
+  {
+    "english_name": "TWGHs Lui Yun Choy Memorial College",
+    "chinese_name": "東華三院呂潤財紀念中學",
+    "region": "西貢",
+    "english_index": 34.7,
+    "banding": "2A",
+    "ranking_range": "#153 - #174"
+  },
+  {
+    "english_name": "Our Lady's College",
+    "chinese_name": "聖母書院",
+    "region": "黃大仙",
+    "english_index": 69.0,
+    "banding": "2",
+    "ranking_range": "#162 - #177"
+  },
+  {
+    "english_name": "Shek Lei Catholic Secondary School",
+    "chinese_name": "石籬天主教中學",
+    "region": "葵青",
+    "english_index": 38.8,
+    "banding": "2",
+    "ranking_range": "#174"
+  },
+  {
+    "english_name": "Law Ting Pong Secondary School",
+    "chinese_name": "羅定邦中學",
+    "region": "大埔",
+    "english_index": 84.7,
+    "banding": "2",
+    "ranking_range": "#174 - #186"
+  },
+  {
+    "english_name": "Cognitio College (Kowloon)",
+    "chinese_name": "文理書院（九龍）",
+    "region": "九龍城",
+    "english_index": 65.5,
+    "banding": "2",
+    "ranking_range": "#174 - #186"
+  },
+  {
+    "english_name": "Fung Kai No. 1 Secondary School",
+    "chinese_name": "鳳溪第一中學",
+    "region": "北區",
+    "english_index": 31.0,
+    "banding": "2",
+    "ranking_range": "#174 - #195"
+  },
+  {
+    "english_name": "Ning Po No. 2 College",
+    "chinese_name": "寧波第二中學",
+    "region": "觀塘",
+    "english_index": 0.0,
+    "banding": "2",
+    "ranking_range": "#174 - #186"
+  },
+  {
+    "english_name": "Lui Cheung Kwong Lutheran College",
+    "chinese_name": "路德會呂祥光中學",
+    "region": "屯門",
+    "english_index": 23.6,
+    "banding": "2B–2A",
+    "ranking_range": "#175 - #188"
+  },
+  {
+    "english_name": "St. Joseph's Anglo-Chinese School",
+    "chinese_name": "聖若瑟英文中學",
+    "region": "觀塘",
+    "english_index": 49.3,
+    "banding": "2B–2A",
+    "ranking_range": "#175 - #188"
+  },
+  {
+    "english_name": "S.K.H. Holy Trinity Church Secondary School",
+    "chinese_name": "聖公會聖三一堂中學",
+    "region": "九龍城",
+    "english_index": 20.8,
+    "banding": "2",
+    "ranking_range": "#175 - #196"
+  },
+  {
+    "english_name": "Lui Cheung Kwong Lutheran College",
+    "chinese_name": "路德會呂祥光中學",
+    "region": "屯門",
+    "english_index": 23.6,
+    "banding": "2B–2A",
+    "ranking_range": "#175 - #188"
+  },
+  {
+    "english_name": "Tung Wah Group of Hospitals Mrs. Wu York Yu Memorial College",
+    "chinese_name": "東華三院伍若瑜夫人紀念中學",
+    "region": "葵青",
+    "english_index": 49.9,
+    "banding": "2B–2A",
+    "ranking_range": "#175 - #188"
+  },
+  {
+    "english_name": "Fanling Rhenish Church Secondary School",
+    "chinese_name": "粉嶺禮賢會中學",
+    "region": "北區",
+    "english_index": 49.0,
+    "banding": "2B–2A",
+    "ranking_range": "#175 - #188"
+  },
+  {
+    "english_name": "Clementi Secondary School",
+    "chinese_name": "金文泰中學",
+    "region": "東區",
+    "english_index": 0.0,
+    "banding": "2B–2A",
+    "ranking_range": "#175 - #188"
+  },
+  {
+    "english_name": "Po Leung Kuk Ma Kam Ming College",
+    "chinese_name": "保良局馬錦明中學",
+    "region": "北區",
+    "english_index": 48.7,
+    "banding": "2B–2A",
+    "ranking_range": "#175 - #188"
+  },
+  {
+    "english_name": "TWGHs S. C. Gaw Memorial College",
+    "chinese_name": "東華三院吳祥川紀念中學",
+    "region": "葵青",
+    "english_index": 68.5,
+    "banding": "2B–2A",
+    "ranking_range": "#175 - #188"
+  },
+  {
+    "english_name": "Queen Elizabeth School Old Students' Association Secondary School",
+    "chinese_name": "伊利沙伯中學舊生會中學",
+    "region": "元朗",
+    "english_index": 36.1,
+    "banding": "2B–2A",
+    "ranking_range": "#175 - #188"
+  },
+  {
+    "english_name": "Hong Kong True Light College",
+    "chinese_name": "香港真光書院",
+    "region": "南區",
+    "english_index": 48.5,
+    "banding": "2",
+    "ranking_range": "#184 - #202"
+  },
+  {
+    "english_name": "STFA Seaward Woo College",
+    "chinese_name": "順德聯誼總會胡兆熾中學",
+    "region": "九龍城",
+    "english_index": 51.5,
+    "banding": "2B",
+    "ranking_range": "#189 - #216"
+  },
+  {
+    "english_name": "Yu Chun Keung Memorial College",
+    "chinese_name": "余振強紀念中學",
+    "region": "九龍城",
+    "english_index": 34.6,
+    "banding": "2B",
+    "ranking_range": "#189 - #216"
+  },
+  {
+    "english_name": "Yuen Long Public Secondary School",
+    "chinese_name": "元朗公立中學",
+    "region": "元朗",
+    "english_index": 67.1,
+    "banding": "2B",
+    "ranking_range": "#189 - #216"
+  },
+  {
+    "english_name": "Tsung Tsin College",
+    "chinese_name": "崇真書院",
+    "region": "屯門",
+    "english_index": 52.1,
+    "banding": "2B",
+    "ranking_range": "#189 - #216"
+  },
+  {
+    "english_name": "Creative Secondary School",
+    "chinese_name": "啓思中學",
+    "region": "西貢",
+    "english_index": null,
+    "banding": "2B",
+    "ranking_range": "#189 - #216"
+  },
+  {
+    "english_name": "Hong Kong Taoist Association The Yuen Yuen Institute No. 2 Secondary Sch.",
+    "chinese_name": "香港道教聯合會圓玄學院第二中學",
+    "region": "大埔",
+    "english_index": 30.5,
+    "banding": "2B",
+    "ranking_range": "#189 - #216"
+  },
+  {
+    "english_name": "Fukien Secondary School (Siu Sai Wan)",
+    "chinese_name": "福建中學（小西灣）",
+    "region": "東區",
+    "english_index": 24.0,
+    "banding": "2B",
+    "ranking_range": "#189 - #216"
+  },
+  {
+    "english_name": "Buddhist Tai Hung College",
+    "chinese_name": "佛教大雄中學",
+    "region": "深水埗",
+    "english_index": 49.1,
+    "banding": "2B",
+    "ranking_range": "#189 - #216"
+  },
+  {
+    "english_name": "Chinese Y.M.C.A. College",
+    "chinese_name": "青年會書院",
+    "region": "沙田",
+    "english_index": 49.9,
+    "banding": "2B",
+    "ranking_range": "#189 - #216"
+  },
+  {
+    "english_name": "St. Francis Xavier's School Tsuen Wan",
+    "chinese_name": "荃灣聖芳濟中學",
+    "region": "荃灣",
+    "english_index": 43.3,
+    "banding": "2B",
+    "ranking_range": "#189 - #216"
+  },
+  {
+    "english_name": "Yuen Long Public Secondary School",
+    "chinese_name": "元朗公立中學",
+    "region": "元朗",
+    "english_index": 67.1,
+    "banding": "2B",
+    "ranking_range": "#189 - #216"
+  },
+  {
+    "english_name": "Yu Chun Keung Memorial College",
+    "chinese_name": "余振強紀念中學",
+    "region": "九龍城",
+    "english_index": 34.6,
+    "banding": "2B",
+    "ranking_range": "#189 - #216"
+  },
+  {
+    "english_name": "Stewards Pooi Tun Secondary School",
+    "chinese_name": "香港神託會培敦中學",
+    "region": "黃大仙",
+    "english_index": 25.0,
+    "banding": "2B",
+    "ranking_range": "#189 - #216"
+  },
+  {
+    "english_name": "Chinese Y.M.C.A. Secondary School",
+    "chinese_name": "中華基督教青年會中學",
+    "region": "元朗",
+    "english_index": 49.8,
+    "banding": "2B",
+    "ranking_range": "#189 - #216"
+  },
+  {
+    "english_name": "Cumberland Presbyterian Church Yao Dao Secondary School",
+    "chinese_name": "金巴崙長老會耀道中學",
+    "region": "元朗",
+    "english_index": 51.2,
+    "banding": "2B",
+    "ranking_range": "#189 - #216"
+  },
+  {
+    "english_name": "CCC Kei To Secondary School",
+    "chinese_name": "中華基督教會基道中學",
+    "region": "九龍城",
+    "english_index": 28.0,
+    "banding": "2B",
+    "ranking_range": "#189 - #216"
+  },
+  {
+    "english_name": "Po Leung Kuk Ho Yuk Ching (1984) College",
+    "chinese_name": "保良局甲子何玉清中學",
+    "region": "西貢",
+    "english_index": 14.5,
+    "banding": "2B",
+    "ranking_range": "#189 - #216"
+  },
+  {
+    "english_name": "Confucian Tai Shing Ho Kwok Pui Chun College",
+    "chinese_name": "孔教學院大成何郭佩珍中學",
+    "region": "大埔",
+    "english_index": 43.0,
+    "banding": "2B",
+    "ranking_range": "#189 - #216"
+  },
+  {
+    "english_name": "S.K.H. Kei Hau Secondary School",
+    "chinese_name": "聖公會基孝中學",
+    "region": "觀塘",
+    "english_index": 15.1,
+    "banding": "2B",
+    "ranking_range": "#189 - #216"
+  },
+  {
+    "english_name": "Pentecostal School",
+    "chinese_name": "五旬節中學",
+    "region": "九龍城",
+    "english_index": 33.0,
+    "banding": "2B",
+    "ranking_range": "#189 - #216"
+  },
+  {
+    "english_name": "Yuen Long Public Secondary School",
+    "chinese_name": "元朗公立中學",
+    "region": "元朗",
+    "english_index": 67.1,
+    "banding": "2B",
+    "ranking_range": "#189 - #216"
+  },
+  {
+    "english_name": "CCC Kei To Secondary School",
+    "chinese_name": "中華基督教會基道中學",
+    "region": "九龍城",
+    "english_index": 28.0,
+    "banding": "2B",
+    "ranking_range": "#189 - #216"
+  },
+  {
+    "english_name": "Chinese Y.M.C.A. Secondary School",
+    "chinese_name": "中華基督教青年會中學",
+    "region": "元朗",
+    "english_index": 49.8,
+    "banding": "2B",
+    "ranking_range": "#189 - #216"
+  },
+  {
+    "english_name": "Pui Tak Canossian College",
+    "chinese_name": "嘉諾撒培德書院",
+    "region": "南區",
+    "english_index": 53.7,
+    "banding": "2",
+    "ranking_range": "#216 - #244"
+  },
+  {
+    "english_name": "Po Leung Kuk Tong Nai Kan Junior Secondary College",
+    "chinese_name": "保良局唐乃勤初中書院",
+    "region": "深水埗",
+    "english_index": 84.2,
+    "banding": "2",
+    "ranking_range": "#217 - #260"
+  },
+  {
+    "english_name": "Pok Oi Hospital Tang Pui King Memorial College",
+    "chinese_name": "博愛醫院鄧佩瓊紀念中學",
+    "region": "元朗",
+    "english_index": 30.3,
+    "banding": "2C–2B",
+    "ranking_range": "#217 - #249"
+  },
+  {
+    "english_name": "Tak Sun Secondary School",
+    "chinese_name": "德信中學",
+    "region": "沙田",
+    "english_index": 72.6,
+    "banding": "2C–2B",
+    "ranking_range": "#217 - #249"
+  },
+  {
+    "english_name": "Tang King Po School",
+    "chinese_name": "鄧鏡波學校",
+    "region": "九龍城",
+    "english_index": 30.8,
+    "banding": "2C–2B",
+    "ranking_range": "#217 - #249"
+  },
+  {
+    "english_name": "TWGHs Sun Hoi Directors' College",
+    "chinese_name": "東華三院辛亥年總理中學",
+    "region": "屯門",
+    "english_index": 48.9,
+    "banding": "2C–2B",
+    "ranking_range": "#217 - #249"
+  },
+  {
+    "english_name": "Fung Kai Liu Man Shek Tong Secondary School",
+    "chinese_name": "鳳溪廖萬石堂中學",
+    "region": "北區",
+    "english_index": 34.7,
+    "banding": "2C–2B",
+    "ranking_range": "#217 - #249"
+  },
+  {
+    "english_name": "Buddhist Kok Kwong Secondary School",
+    "chinese_name": "佛教覺光法師中學",
+    "region": "沙田",
+    "english_index": 27.5,
+    "banding": "2C–2B",
+    "ranking_range": "#217 - #249"
+  },
+  {
+    "english_name": "Buddhist Hung Sean Chau Memorial College",
+    "chinese_name": "佛教孔仙洲紀念中學",
+    "region": "黃大仙",
+    "english_index": 23.1,
+    "banding": "2C–2B",
+    "ranking_range": "#217 - #249"
+  },
+  {
+    "english_name": "YMCA of Hong Kong Christian College",
+    "chinese_name": "港青基信書院",
+    "region": "離島區",
+    "english_index": null,
+    "banding": "2C–2B",
+    "ranking_range": "#217 - #249"
+  },
+  {
+    "english_name": "Hon Wah College",
+    "chinese_name": "漢華中學",
+    "region": "東區",
+    "english_index": 40.5,
+    "banding": "2C–2B",
+    "ranking_range": "#217 - #249"
+  },
+  {
+    "english_name": "Baptist Wing Lung Secondary School",
+    "chinese_name": "浸信會永隆中學",
+    "region": "屯門",
+    "english_index": 46.0,
+    "banding": "2",
+    "ranking_range": "#217 - #260"
+  },
+  {
+    "english_name": "Kau Yan College",
+    "chinese_name": "救恩書院",
+    "region": "大埔",
+    "english_index": 59.4,
+    "banding": "2C–2B",
+    "ranking_range": "#217 - #249"
+  },
+  {
+    "english_name": "Kiangsu - Chekiang College (Kwai Chung)",
+    "chinese_name": "葵涌蘇浙公學",
+    "region": "葵青",
+    "english_index": 36.3,
+    "banding": "2C–2B",
+    "ranking_range": "#217 - #242"
+  },
+  {
+    "english_name": "Scientia Secondary School",
+    "chinese_name": "創知中學",
+    "region": "九龍城",
+    "english_index": 18.1,
+    "banding": "2C–2B",
+    "ranking_range": "#217 - #249"
+  },
+  {
+    "english_name": "Ju Ching Chu Secondary School (Yuen Long)",
+    "chinese_name": "裘錦秋中學（元朗）",
+    "region": "元朗",
+    "english_index": 20.8,
+    "banding": "2C–2B",
+    "ranking_range": "#217 - #249"
+  },
+  {
+    "english_name": "Assembly of God Hebron Secondary School",
+    "chinese_name": "神召會康樂中學",
+    "region": "大埔",
+    "english_index": 21.0,
+    "banding": "2C–2B",
+    "ranking_range": "#217 - #249"
+  },
+  {
+    "english_name": "St. Peter's Secondary School",
+    "chinese_name": "聖伯多祿中學",
+    "region": "南區",
+    "english_index": 24.4,
+    "banding": "2C–2B",
+    "ranking_range": "#217 - #249"
+  },
+  {
+    "english_name": "S.K.H. Leung Kwai Yee Secondary School",
+    "chinese_name": "聖公會梁季彜中學",
+    "region": "觀塘",
+    "english_index": 0.0,
+    "banding": "2C–2B",
+    "ranking_range": "#217 - #249"
+  },
+  {
+    "english_name": "Tin Shui Wai Government Secondary School",
+    "chinese_name": "天水圍官立中學",
+    "region": "元朗",
+    "english_index": 0.0,
+    "banding": "2C–2B",
+    "ranking_range": "#217 - #249"
+  },
+  {
+    "english_name": "PHC Wing Kwong College",
+    "chinese_name": "五旬節聖潔會永光書院",
+    "region": "黃大仙",
+    "english_index": 29.1,
+    "banding": "2C–2B",
+    "ranking_range": "#217 - #249"
+  },
+  {
+    "english_name": "CUHKFAA Chan Chun Ha Secondary School",
+    "chinese_name": "香港中文大學校友會聯會陳震夏中學",
+    "region": "沙田",
+    "english_index": 53.1,
+    "banding": "2C–2B",
+    "ranking_range": "#217 - #249"
+  },
+  {
+    "english_name": "HHCKLA Buddhist Leung Chik Wai College",
+    "chinese_name": "香海正覺蓮社佛教梁植偉中學",
+    "region": "屯門",
+    "english_index": 31.2,
+    "banding": "2C–2B",
+    "ranking_range": "#217 - #242"
+  },
+  {
+    "english_name": "Christian Alliance S W Chan Memorial College",
+    "chinese_name": "宣道會陳朱素華紀念中學",
+    "region": "北區",
+    "english_index": 33.9,
+    "banding": "2C–2B",
+    "ranking_range": "#217 - #249"
+  },
+  {
+    "english_name": "YLPMSAA Tang Siu Tong Secondary School",
+    "chinese_name": "元朗公立中學校友會鄧兆棠中學",
+    "region": "元朗",
+    "english_index": 37.0,
+    "banding": "2C–2B",
+    "ranking_range": "#217 - #249"
+  },
+  {
+    "english_name": "CNEC Lee I Yao Memorial Secondary School",
+    "chinese_name": "中華傳道會李賢堯紀念中學",
+    "region": "葵青",
+    "english_index": 42.4,
+    "banding": "2C–2B",
+    "ranking_range": "#217 - #249"
+  },
+  {
+    "english_name": "CCC Kei Long College",
+    "chinese_name": "中華基督教會基朗中學",
+    "region": "元朗",
+    "english_index": 56.7,
+    "banding": "2C–2B",
+    "ranking_range": "#217 - #249"
+  },
+  {
+    "english_name": "ECF Saint Too Canaan College",
+    "chinese_name": "基督教中國佈道會聖道迦南書院",
+    "region": "觀塘",
+    "english_index": 69.9,
+    "banding": "2",
+    "ranking_range": "#218 - #257"
+  },
+  {
+    "english_name": "Fanling Kau Yan College",
+    "chinese_name": "粉嶺救恩書院",
+    "region": "北區",
+    "english_index": 30.5,
+    "banding": "2C–2B",
+    "ranking_range": "#219 - #245"
+  },
+  {
+    "english_name": "HK & KLN Chiu Chow Public Assn. Sec. School",
+    "chinese_name": "港九潮州公會中學",
+    "region": "油尖旺",
+    "english_index": 0.0,
+    "banding": "2C–2B",
+    "ranking_range": "#219 - #245"
+  },
+  {
+    "english_name": "Concordia Lutheran School",
+    "chinese_name": "路德會協同中學",
+    "region": "深水埗",
+    "english_index": 37.1,
+    "banding": "2C–2B",
+    "ranking_range": "#219 - #245"
+  },
+  {
+    "english_name": "Queen's College Old Boys' Association Secondary School",
+    "chinese_name": "皇仁舊生會中學",
+    "region": "葵青",
+    "english_index": 30.9,
+    "banding": "2",
+    "ranking_range": "#224 - #268"
+  },
+  {
+    "english_name": "Rhenish Church Pang Hok Ko Memorial College",
+    "chinese_name": "禮賢會彭學高紀念中學",
+    "region": "九龍城",
+    "english_index": 42.4,
+    "banding": "2",
+    "ranking_range": "#224 - #268"
+  },
+  {
+    "english_name": "Shun Tak Fraternal Association Cheng Yu Tung Secondary School",
+    "chinese_name": "順德聯誼總會鄭裕彤中學",
+    "region": "西貢",
+    "english_index": 29.7,
+    "banding": "2",
+    "ranking_range": "#224 - #268"
+  },
+  {
+    "english_name": "Ling Liang Church E Wun Secondary School",
+    "chinese_name": "靈糧堂怡文中學",
+    "region": "離島區",
+    "english_index": 42.0,
+    "banding": "2",
+    "ranking_range": "#227 - #259"
+  },
+  {
+    "english_name": "Lee Kau Yan Memorial School",
+    "chinese_name": "李求恩紀念中學",
+    "region": "黃大仙",
+    "english_index": 0.0,
+    "banding": "2",
+    "ranking_range": "#244 - #284"
+  },
+  {
+    "english_name": "S.K.H. All Saints' Middle School",
+    "chinese_name": "聖公會諸聖中學",
+    "region": "油尖旺",
+    "english_index": 0.0,
+    "banding": "2",
+    "ranking_range": "#244 - #284"
+  },
+  {
+    "english_name": "Islamic Kasim Tuet Memorial College",
+    "chinese_name": "伊斯蘭脫維善紀念中學",
+    "region": "東區",
+    "english_index": 50.0,
+    "banding": "2",
+    "ranking_range": "#244 - #284"
+  },
+  {
+    "english_name": "Choi Hung Estate Catholic Secondary School",
+    "chinese_name": "彩虹邨天主教英文中學",
+    "region": "黃大仙",
+    "english_index": 27.8,
+    "banding": "2C",
+    "ranking_range": "#246 - #286"
+  },
+  {
+    "english_name": "TWGHs Mrs. Fung Wong Fung Ting College",
+    "chinese_name": "東華三院馮黃鳳亭中學",
+    "region": "沙田",
+    "english_index": 28.9,
+    "banding": "2C",
+    "ranking_range": "#246 - #286"
+  },
+  {
+    "english_name": "Buddhist Ho Nam Kam College",
+    "chinese_name": "佛教何南金中學",
+    "region": "觀塘",
+    "english_index": 0.0,
+    "banding": "2C",
+    "ranking_range": "#246 - #286"
+  },
+  {
+    "english_name": "Ko Lui Secondary School",
+    "chinese_name": "高雷中學",
+    "region": "觀塘",
+    "english_index": 0.0,
+    "banding": "2C",
+    "ranking_range": "#246 - #286"
+  },
+  {
+    "english_name": "ELCHK Lutheran Academy",
+    "chinese_name": "基督教香港信義會宏信書院",
+    "region": "元朗",
+    "english_index": 85.2,
+    "banding": "2C",
+    "ranking_range": "#246 - #286"
+  },
+  {
+    "english_name": "Carmel Alison Lam Foundation Secondary School",
+    "chinese_name": "迦密愛禮信中學",
+    "region": "葵青",
+    "english_index": 37.2,
+    "banding": "2C",
+    "ranking_range": "#246 - #286"
+  },
+  {
+    "english_name": "Kowloon Tong School (Secondary Section)",
+    "chinese_name": "九龍塘學校（中學部）",
+    "region": "九龍城",
+    "english_index": 0.0,
+    "banding": "2C",
+    "ranking_range": "#246 - #249"
+  },
+  {
+    "english_name": "Academy of Innovation (Confucius Hall)",
+    "chinese_name": "孔聖堂禮仁書院",
+    "region": "灣仔",
+    "english_index": 48.4,
+    "banding": "2C",
+    "ranking_range": "#246 - #286"
+  },
+  {
+    "english_name": "Lok Sin Tong Ku Chiu Man Secondary School",
+    "chinese_name": "樂善堂顧超文中學",
+    "region": "葵青",
+    "english_index": 15.2,
+    "banding": "2C",
+    "ranking_range": "#246 - #286"
+  },
+  {
+    "english_name": "Helen Liang Memorial Secondary School (Shatin)",
+    "chinese_name": "梁文燕紀念中學（沙田）",
+    "region": "沙田",
+    "english_index": 25.0,
+    "banding": "2C",
+    "ranking_range": "#246 - #286"
+  },
+  {
+    "english_name": "Lingnan Hang Yee Memorial Secondary School",
+    "chinese_name": "嶺南衡怡紀念中學",
+    "region": "東區",
+    "english_index": 12.5,
+    "banding": "2C",
+    "ranking_range": "#246 - #249"
+  },
+  {
+    "english_name": "Gertrude Simon Lutheran College",
+    "chinese_name": "路德會西門英才中學",
+    "region": "元朗",
+    "english_index": 13.2,
+    "banding": "2C",
+    "ranking_range": "#246 - #286"
+  },
+  {
+    "english_name": "Pui Ying Secondary School",
+    "chinese_name": "培英中學",
+    "region": "南區",
+    "english_index": 0.0,
+    "banding": "2C",
+    "ranking_range": "#246 - #286"
+  },
+  {
+    "english_name": "St. Antonius Girls' College",
+    "chinese_name": "聖安當女書院",
+    "region": "觀塘",
+    "english_index": 30.8,
+    "banding": "2C",
+    "ranking_range": "#246 - #286"
+  },
+  {
+    "english_name": "SPHRC Kung Yik She Secondary School",
+    "chinese_name": "十八鄉鄉事委員會公益社中學",
+    "region": "元朗",
+    "english_index": 22.5,
+    "banding": "2C",
+    "ranking_range": "#246 - #249"
+  },
+  {
+    "english_name": "Tin Shui Wai Methodist College",
+    "chinese_name": "天水圍循道衞理中學",
+    "region": "元朗",
+    "english_index": 0.3,
+    "banding": "2C",
+    "ranking_range": "#246 - #249"
+  },
+  {
+    "english_name": "FDBWA Szeto Ho Secondary School",
+    "chinese_name": "五邑司徒浩中學",
+    "region": "觀塘",
+    "english_index": 14.4,
+    "banding": "2C",
+    "ranking_range": "#246 - #286"
+  },
+  {
+    "english_name": "HKSKH Bishop Hall Secondary School",
+    "chinese_name": "香港聖公會何明華會督中學",
+    "region": "觀塘",
+    "english_index": 0.0,
+    "banding": "2C",
+    "ranking_range": "#246 - #286"
+  },
+  {
+    "english_name": "HKCWC Fung Yiu King Memorial Secondary School",
+    "chinese_name": "香港中國婦女會馮堯敬紀念中學",
+    "region": "沙田",
+    "english_index": 0.0,
+    "banding": "2C",
+    "ranking_range": "#246 - #286"
+  },
+  {
+    "english_name": "NLSI Peace Evangelical Secondary School",
+    "chinese_name": "新生命教育協會平安福音中學",
+    "region": "屯門",
+    "english_index": 17.2,
+    "banding": "2C",
+    "ranking_range": "#246 - #286"
+  },
+  {
+    "english_name": "Christian Alliance College",
+    "chinese_name": "宣道中學",
+    "region": "屯門",
+    "english_index": 12.7,
+    "banding": "2C",
+    "ranking_range": "#246 - #286"
+  },
+  {
+    "english_name": "Queen Elizabeth School Old Students' Association Tong Kwok Wah Sec. Sch.",
+    "chinese_name": "伊利沙伯中學舊生會湯國華中學",
+    "region": "元朗",
+    "english_index": 41.5,
+    "banding": "2C",
+    "ranking_range": "#246 - #286"
+  },
+  {
+    "english_name": "CCC Kei Chi Secondary School",
+    "chinese_name": "中華基督教會基智中學",
+    "region": "觀塘",
+    "english_index": 0.0,
+    "banding": "2C",
+    "ranking_range": "#246 - #286"
+  },
+  {
+    "english_name": "United Christian College",
+    "chinese_name": "滙基書院",
+    "region": "深水埗",
+    "english_index": 38.6,
+    "banding": "2C",
+    "ranking_range": "#250 - #282"
+  },
+  {
+    "english_name": "Lok Sin Tong Young Ko Hsiao Lin Secondary School",
+    "chinese_name": "樂善堂楊葛小琳中學",
+    "region": "沙田",
+    "english_index": 35.9,
+    "banding": "2C",
+    "ranking_range": "#250 - #281"
+  },
+  {
+    "english_name": "HK & KLN Kaifong Women's Association Sun Fong Chung College",
+    "chinese_name": "港九街坊婦女會孫方中書院",
+    "region": "大埔",
+    "english_index": 21.2,
+    "banding": "2C",
+    "ranking_range": "#251 - #284"
+  },
+  {
+    "english_name": "Fanling Lutheran Secondary School",
+    "chinese_name": "基督教香港信義會心誠中學",
+    "region": "北區",
+    "english_index": 51.9,
+    "banding": "2",
+    "ranking_range": "#255 - #260"
+  },
+  {
+    "english_name": "POH Chan Kai Memorial College",
+    "chinese_name": "博愛醫院陳楷紀念中學",
+    "region": "沙田",
+    "english_index": 29.9,
+    "banding": "3A–2C",
+    "ranking_range": "#258 - #301"
+  },
+  {
+    "english_name": "Buddhist Wong Fung Ling College",
+    "chinese_name": "佛教黃鳳翎中學",
+    "region": "灣仔",
+    "english_index": 40.9,
+    "banding": "3A–2C",
+    "ranking_range": "#258 - #301"
+  },
+  {
+    "english_name": "Ju Ching Chu Secondary School (Kwai Chung)",
+    "chinese_name": "裘錦秋中學（葵涌）",
+    "region": "葵青",
+    "english_index": 2.6,
+    "banding": "3A–2C",
+    "ranking_range": "#259 - #294"
+  },
+  {
+    "english_name": "HKFEW Wong Cho Bau Secondary School",
+    "chinese_name": "香港教育工作者聯會黃楚標中學",
+    "region": "離島區",
+    "english_index": 0.0,
+    "banding": "3A–2C",
+    "ranking_range": "#259 - #294"
+  },
+  {
+    "english_name": "Aberdeen Baptist Lui Ming Choi College",
+    "chinese_name": "香港仔浸信會呂明才書院",
+    "region": "南區",
+    "english_index": 13.2,
+    "banding": "3A–2C",
+    "ranking_range": "#266 - #270"
+  },
+  {
+    "english_name": "CUHK FAA Thomas Cheung Secondary School",
+    "chinese_name": "香港中文大學校友會聯會張煊昌中學",
+    "region": "元朗",
+    "english_index": 35.1,
+    "banding": "2",
+    "ranking_range": "#279 - #284"
+  },
+  {
+    "english_name": "Caritas Wu Cheng-Chung College",
+    "chinese_name": "明愛胡振中書院",
+    "region": "離島區",
+    "english_index": 56.7,
+    "banding": "3A–2C",
+    "ranking_range": "#282 - #316"
+  },
+  {
+    "english_name": "Heung To Middle School (Tin Shui Wai)",
+    "chinese_name": "天水圍香島中學",
+    "region": "元朗",
+    "english_index": 33.2,
+    "banding": "3A–2C",
+    "ranking_range": "#282 - #316"
+  },
+  {
+    "english_name": "Hong Kong Taoist Association The Yuen Yuen Institute No. 3 Secondary Sch.",
+    "chinese_name": "香港道教聯合會圓玄學院第三中學",
+    "region": "西貢",
+    "english_index": 32.9,
+    "banding": "3A–2C",
+    "ranking_range": "#282 - #316"
+  },
+  {
+    "english_name": "Cheng Chek Chee Secondary School of SK & HH District N.T.",
+    "chinese_name": "新界西貢坑口區鄭植之中學",
+    "region": "西貢",
+    "english_index": 30.8,
+    "banding": "3A–2C",
+    "ranking_range": "#282 - #316"
+  },
+  {
+    "english_name": "Po Kok Secondary School",
+    "chinese_name": "寶覺中學",
+    "region": "西貢",
+    "english_index": 29.7,
+    "banding": "3A–2C",
+    "ranking_range": "#284 - #317"
+  },
+  {
+    "english_name": "St. Teresa Secondary School",
+    "chinese_name": "德蘭中學",
+    "region": "九龍城",
+    "english_index": 51.2,
+    "banding": "3A–2C",
+    "ranking_range": "#284 - #317"
+  },
+  {
+    "english_name": "TWGHs Lee Ching Dea Memorial College",
+    "chinese_name": "東華三院李潤田紀念中學",
+    "region": "灣仔",
+    "english_index": 27.1,
+    "banding": "3A–2C",
+    "ranking_range": "#284 - #317"
+  },
+  {
+    "english_name": "GCC&ITKD Lau Pak Lok Secondary School",
+    "chinese_name": "東莞工商總會劉百樂中學",
+    "region": "沙田",
+    "english_index": 25.1,
+    "banding": "2C",
+    "ranking_range": "#284 - #287"
+  },
+  {
+    "english_name": "Carmel Holy Word Secondary School",
+    "chinese_name": "迦密聖道中學",
+    "region": "大埔",
+    "english_index": 28.6,
+    "banding": "3A–2C",
+    "ranking_range": "#284 - #317"
+  },
+  {
+    "english_name": "Heung To Secondary School (Tseung Kwan O)",
+    "chinese_name": "將軍澳香島中學",
+    "region": "西貢",
+    "english_index": 29.7,
+    "banding": "3A–2C",
+    "ranking_range": "#284 - #317"
+  },
+  {
+    "english_name": "Lok Sin Tong Leung Kau Kui College",
+    "chinese_name": "樂善堂梁銶琚書院",
+    "region": "中西區",
+    "english_index": 24.5,
+    "banding": "3A–2C",
+    "ranking_range": "#284 - #317"
+  },
+  {
+    "english_name": "Lingnan Secondary School",
+    "chinese_name": "嶺南中學",
+    "region": "東區",
+    "english_index": 0.0,
+    "banding": "3A–2C",
+    "ranking_range": "#284 - #317"
+  },
+  {
+    "english_name": "The Yuen Yuen Institute MFBM Nei Ming Chan Lui Chung Tak Mem. College",
+    "chinese_name": "圓玄學院妙法寺內明陳呂重德紀念中學",
+    "region": "元朗",
+    "english_index": 0.0,
+    "banding": "3A–2C",
+    "ranking_range": "#284 - #317"
+  },
+  {
+    "english_name": "YCH Lim Por Yen Secondary School",
+    "chinese_name": "仁濟醫院林百欣中學",
+    "region": "荃灣",
+    "english_index": 0.0,
+    "banding": "3A–2C",
+    "ranking_range": "#284 - #317"
+  },
+  {
+    "english_name": "Ho Yu College and Primary School (Sponsored by Sik Sik Yuen)",
+    "chinese_name": "嗇色園主辦可譽中學暨可譽小學",
+    "region": "離島區",
+    "english_index": 45.2,
+    "banding": "3A–2C",
+    "ranking_range": "#284 - #317"
+  },
+  {
+    "english_name": "St. Joan of Arc Secondary School",
+    "chinese_name": "聖貞德中學",
+    "region": "東區",
+    "english_index": 54.1,
+    "banding": "3A–2C",
+    "ranking_range": "#284 - #317"
+  },
+  {
+    "english_name": "HKWMA Chu Shek Lun Secondary School",
+    "chinese_name": "香港布廠商會朱石麟中學",
+    "region": "觀塘",
+    "english_index": 0.3,
+    "banding": "3A–2C",
+    "ranking_range": "#284 - #317"
+  },
+  {
+    "english_name": "HKTA The Yuen Yuen Institute No. 1 Secondary School",
+    "chinese_name": "香港道教聯合會圓玄學院第一中學",
+    "region": "葵青",
+    "english_index": 0.0,
+    "banding": "3A–2C",
+    "ranking_range": "#284 - #317"
+  },
+  {
+    "english_name": "HHCKLA Buddhist Ma Kam Chan Memorial English Secondary School",
+    "chinese_name": "香海正覺蓮社佛教馬錦燦紀念英文中學",
+    "region": "北區",
+    "english_index": 51.3,
+    "banding": "3A–2C",
+    "ranking_range": "#284 - #317"
+  },
+  {
+    "english_name": "New Asia Middle School",
+    "chinese_name": "新亞中學",
+    "region": "九龍城",
+    "english_index": 12.2,
+    "banding": "3A–2C",
+    "ranking_range": "#284 - #317"
+  },
+  {
+    "english_name": "CCC Yenching College",
+    "chinese_name": "中華基督教會燕京書院",
+    "region": "葵青",
+    "english_index": 0.0,
+    "banding": "3A–2C",
+    "ranking_range": "#284 - #317"
+  },
+  {
+    "english_name": "Tung Chung Catholic School",
+    "chinese_name": "東涌天主教學校",
+    "region": "離島區",
+    "english_index": 24.4,
+    "banding": "3A–2C",
+    "ranking_range": "#288 - #315"
+  },
+  {
+    "english_name": "St. Francis of Assisi's College",
+    "chinese_name": "聖芳濟各書院",
+    "region": "北區",
+    "english_index": 0.0,
+    "banding": "3A–2C",
+    "ranking_range": "#288 - #316"
+  },
+  {
+    "english_name": "Toi Shan Association College",
+    "chinese_name": "台山商會中學",
+    "region": "沙田",
+    "english_index": 0.0,
+    "banding": "3",
+    "ranking_range": "#290 - #332"
+  },
+  {
+    "english_name": "S.K.H. St. Mary's Church Mok Hing Yiu College",
+    "chinese_name": "聖公會聖馬利亞堂莫慶堯中學",
+    "region": "深水埗",
+    "english_index": 36.1,
+    "banding": "3",
+    "ranking_range": "#296 - #301"
+  },
+  {
+    "english_name": "SKH Li Fook Hing Secondary School",
+    "chinese_name": "聖公會李福慶中學",
+    "region": "東區",
+    "english_index": 0.0,
+    "banding": "3",
+    "ranking_range": "#303 - #361"
+  },
+  {
+    "english_name": "Newman Catholic College",
+    "chinese_name": "天主教新民書院",
+    "region": "油尖旺",
+    "english_index": 27.0,
+    "banding": "3",
+    "ranking_range": "#303 - #361"
+  },
+  {
+    "english_name": "YPI & CA Lee Lim Ming College",
+    "chinese_name": "恩平工商會李琳明中學",
+    "region": "屯門",
+    "english_index": 50.0,
+    "banding": "3",
+    "ranking_range": "#315 - #361"
+  },
+  {
+    "english_name": "Salvation Army William Booth Secondary School",
+    "chinese_name": "救世軍卜維廉中學",
+    "region": "黃大仙",
+    "english_index": 0.0,
+    "banding": "3A–2C",
+    "ranking_range": "#315 - #317"
+  },
+  {
+    "english_name": "Caritas Chong Yuet Ming Secondary School",
+    "chinese_name": "明愛莊月明中學",
+    "region": "南區",
+    "english_index": 0.0,
+    "banding": "3",
+    "ranking_range": "#315 - #361"
+  },
+  {
+    "english_name": "Mu Kuang English School",
+    "chinese_name": "慕光英文書院",
+    "region": "觀塘",
+    "english_index": 27.5,
+    "banding": "3",
+    "ranking_range": "#315 - #361"
+  },
+  {
+    "english_name": "Yan Chai Hospital Lan Chi Pat Memorial Secondary School",
+    "chinese_name": "仁濟醫院靚次伯紀念中學",
+    "region": "西貢",
+    "english_index": 0.0,
+    "banding": "3",
+    "ranking_range": "#315 - #361"
+  },
+  {
+    "english_name": "SKH Holy Carpenter Secondary School",
+    "chinese_name": "聖公會聖匠中學",
+    "region": "九龍城",
+    "english_index": 0.0,
+    "banding": "3",
+    "ranking_range": "#315 - #361"
+  },
+  {
+    "english_name": "Po Leung Kuk Yao Ling Sun College",
+    "chinese_name": "保良局姚連生中學",
+    "region": "荃灣",
+    "english_index": 0.0,
+    "banding": "3A",
+    "ranking_range": "#317 - #361"
+  },
+  {
+    "english_name": "Po Leung Kuk C. W. Chu College",
+    "chinese_name": "保良局朱敬文中學",
+    "region": "沙田",
+    "english_index": 0.0,
+    "banding": "3A",
+    "ranking_range": "#317 - #361"
+  },
+  {
+    "english_name": "Tang Shiu Kin Victoria Government Secondary School",
+    "chinese_name": "鄧肇堅維多利亞官立中學",
+    "region": "灣仔",
+    "english_index": 31.1,
+    "banding": "3A",
+    "ranking_range": "#317 - #361"
+  },
+  {
+    "english_name": "Delia Memorial School (Glee Path)",
+    "chinese_name": "地利亞修女紀念學校（吉利徑）",
+    "region": "深水埗",
+    "english_index": 52.8,
+    "banding": "3A",
+    "ranking_range": "#317 - #361"
+  },
+  {
+    "english_name": "Delia Memorial School (Hip Wo)",
+    "chinese_name": "地利亞修女紀念學校（協和）",
+    "region": "觀塘",
+    "english_index": 43.7,
+    "banding": "3A",
+    "ranking_range": "#317 - #361"
+  },
+  {
+    "english_name": "TWGHs Yau Tze Tin Memorial College",
+    "chinese_name": "東華三院邱子田紀念中學",
+    "region": "屯門",
+    "english_index": 25.2,
+    "banding": "3A",
+    "ranking_range": "#317 - #361"
+  },
+  {
+    "english_name": "Buddhist Tai Kwong Chi Hong College",
+    "chinese_name": "佛教大光慈航中學",
+    "region": "大埔",
+    "english_index": 0.0,
+    "banding": "3A",
+    "ranking_range": "#317 - #361"
+  },
+  {
+    "english_name": "Hotung Secondary School",
+    "chinese_name": "何東中學",
+    "region": "灣仔",
+    "english_index": 21.6,
+    "banding": "3A",
+    "ranking_range": "#317 - #351"
+  },
+  {
+    "english_name": "Kit Sam Lam Bing Yim Secondary School",
+    "chinese_name": "潔心林炳炎中學",
+    "region": "黃大仙",
+    "english_index": 45.7,
+    "banding": "3A",
+    "ranking_range": "#317 - #361"
+  },
+  {
+    "english_name": "Lai Chack Middle School",
+    "chinese_name": "麗澤中學",
+    "region": "油尖旺",
+    "english_index": 0.0,
+    "banding": "3A",
+    "ranking_range": "#317 - #361"
+  },
+  {
+    "english_name": "Maryknoll Secondary School",
+    "chinese_name": "瑪利諾中學",
+    "region": "觀塘",
+    "english_index": 0.0,
+    "banding": "3A",
+    "ranking_range": "#317 - #361"
+  },
+  {
+    "english_name": "Jockey Club Government Secondary School",
+    "chinese_name": "賽馬會官立中學",
+    "region": "九龍城",
+    "english_index": 0.0,
+    "banding": "3A",
+    "ranking_range": "#317 - #361"
+  },
+  {
+    "english_name": "St. Stephen's Church College",
+    "chinese_name": "聖士提反堂中學",
+    "region": "中西區",
+    "english_index": 29.0,
+    "banding": "3A",
+    "ranking_range": "#317 - #361"
+  },
+  {
+    "english_name": "Kiangsu-Chekiang College",
+    "chinese_name": "蘇浙公學",
+    "region": "東區",
+    "english_index": 48.0,
+    "banding": "3A",
+    "ranking_range": "#317 - #361"
+  },
+  {
+    "english_name": "Salesians of Don Bosco Ng Siu Mui Secondary School",
+    "chinese_name": "天主教慈幼會伍少梅中學",
+    "region": "葵青",
+    "english_index": 47.9,
+    "banding": "3A",
+    "ranking_range": "#317 - #361"
+  },
+  {
+    "english_name": "Pui Shing Catholic Secondary School",
+    "chinese_name": "天主教培聖中學",
+    "region": "元朗",
+    "english_index": 0.0,
+    "banding": "3A",
+    "ranking_range": "#317 - #361"
+  },
+  {
+    "english_name": "Ng Yuk Secondary School",
+    "chinese_name": "五育中學",
+    "region": "沙田",
+    "english_index": 0.0,
+    "banding": "3A",
+    "ranking_range": "#317 - #361"
+  },
+  {
+    "english_name": "The Hong Kong Taoist Association Ching Chung Secondary School",
+    "chinese_name": "香港道教聯合會青松中學",
+    "region": "觀塘",
+    "english_index": 0.0,
+    "banding": "3A",
+    "ranking_range": "#317 - #361"
+  },
+  {
+    "english_name": "De La Salle Secondary School NT",
+    "chinese_name": "新界喇沙中學",
+    "region": "北區",
+    "english_index": 0.0,
+    "banding": "3A",
+    "ranking_range": "#317 - #361"
+  },
+  {
+    "english_name": "CCC Rotary Secondary School",
+    "chinese_name": "中華基督教會扶輪中學",
+    "region": "黃大仙",
+    "english_index": 0.0,
+    "banding": "3A",
+    "ranking_range": "#317 - #361"
+  },
+  {
+    "english_name": "Caritas Fanling Chan Chun Ha Secondary School",
+    "chinese_name": "明愛粉嶺陳震夏中學",
+    "region": "北區",
+    "english_index": 0.0,
+    "banding": "3A",
+    "ranking_range": "#318 - #350"
+  },
+  {
+    "english_name": "Notre Dame College",
+    "chinese_name": "獻主會聖母院書院",
+    "region": "九龍城",
+    "english_index": 21.6,
+    "banding": "3A",
+    "ranking_range": "#318 - #321"
+  },
+  {
+    "english_name": "CCC Kwei Wah Shan College",
+    "chinese_name": "中華基督教會桂華山中學",
+    "region": "東區",
+    "english_index": 52.2,
+    "banding": "3A",
+    "ranking_range": "#320 - #354"
+  },
+  {
+    "english_name": "CMA Choi Cheung Kok Secondary School",
+    "chinese_name": "廠商會蔡章閣中學",
+    "region": "屯門",
+    "english_index": 49.9,
+    "banding": "3A",
+    "ranking_range": "#322 - #359"
+  },
+  {
+    "english_name": "Ling Liang Church M H Lau Secondary School",
+    "chinese_name": "靈糧堂劉梅軒中學",
+    "region": "大埔",
+    "english_index": 0.0,
+    "banding": "3",
+    "ranking_range": "#330 - #386"
+  },
+  {
+    "english_name": "Lingnan Dr. Chung Wing Kwong Memorial Secondary School",
+    "chinese_name": "嶺南鍾榮光博士紀念中學",
+    "region": "葵青",
+    "english_index": 0.3,
+    "banding": "3",
+    "ranking_range": "#335 - #395"
+  },
+  {
+    "english_name": "HHCKLA Buddhist Ching Kok Secondary School",
+    "chinese_name": "香海正覺蓮社佛教正覺中學",
+    "region": "西貢",
+    "english_index": 0.0,
+    "banding": "3",
+    "ranking_range": "#335 - #395"
+  },
+  {
+    "english_name": "Kowloon Sam Yuk Secondary School",
+    "chinese_name": "九龍三育中學",
+    "region": "油尖旺",
+    "english_index": 23.6,
+    "banding": "3",
+    "ranking_range": "#347 - #409"
+  },
+  {
+    "english_name": "S.K.H. St. Simon's Lui Ming Choi Secondary School",
+    "chinese_name": "聖公會聖西門呂明才中學",
+    "region": "屯門",
+    "english_index": 11.8,
+    "banding": "3",
+    "ranking_range": "#347 - #409"
+  },
+  {
+    "english_name": "Sai Kung Sung Tsun Catholic School (Secondary Section)",
+    "chinese_name": "西貢崇真天主教學校（中學部）",
+    "region": "西貢",
+    "english_index": 20.6,
+    "banding": "3",
+    "ranking_range": "#347 - #409"
+  },
+  {
+    "english_name": "Buddhist Wong Wan Tin College",
+    "chinese_name": "佛教黃允畋中學",
+    "region": "沙田",
+    "english_index": 12.0,
+    "banding": "3",
+    "ranking_range": "#350 - #358"
+  },
+  {
+    "english_name": "San Wui Commercial Soc. Chan Pak Sha School",
+    "chinese_name": "新會商會陳白沙紀念中學",
+    "region": "南區",
+    "english_index": 36.9,
+    "banding": "3A",
+    "ranking_range": "#351 - #357"
+  },
+  {
+    "english_name": "San Wui Commercial Society Secondary School",
+    "chinese_name": "新會商會中學",
+    "region": "屯門",
+    "english_index": 0.0,
+    "banding": "3A",
+    "ranking_range": "#352 - #359"
+  },
+  {
+    "english_name": "CCC Kei San Secondary School",
+    "chinese_name": "中華基督教會基新中學",
+    "region": "北區",
+    "english_index": 0.0,
+    "banding": "3A",
+    "ranking_range": "#352 - #359"
+  },
+  {
+    "english_name": "China Holiness Church Living Spirit College",
+    "chinese_name": "中華聖潔會靈風中學",
+    "region": "大埔",
+    "english_index": 0.0,
+    "banding": "3A",
+    "ranking_range": "#352 - #360"
+  },
+  {
+    "english_name": "Lock Tao Secondary School",
+    "chinese_name": "樂道中學",
+    "region": "沙田",
+    "english_index": 36.0,
+    "banding": "3A",
+    "ranking_range": "#355 - #360"
+  },
+  {
+    "english_name": "Man Kwan Pak Kau College",
+    "chinese_name": "萬鈞伯裘書院",
+    "region": "元朗",
+    "english_index": 39.9,
+    "banding": "3B",
+    "ranking_range": "#357 - #417"
+  },
+  {
+    "english_name": "Chiu Chow Association Secondary School",
+    "chinese_name": "潮州會館中學",
+    "region": "沙田",
+    "english_index": 0.0,
+    "banding": "3B",
+    "ranking_range": "#357 - #417"
+  },
+  {
+    "english_name": "TWGHs Wong Fung Ling College",
+    "chinese_name": "東華三院黃鳳翎中學",
+    "region": "沙田",
+    "english_index": 0.0,
+    "banding": "3B",
+    "ranking_range": "#357 - #417"
+  },
+  {
+    "english_name": "TWGHs C.Y. Ma Memorial College",
+    "chinese_name": "東華三院馬振玉紀念中學",
+    "region": "元朗",
+    "english_index": 0.0,
+    "banding": "3B",
+    "ranking_range": "#357 - #417"
+  },
+  {
+    "english_name": "TIACC Woo Hon Fai Secondary School",
+    "chinese_name": "紡織學會美國商會胡漢輝中學",
+    "region": "荃灣",
+    "english_index": 15.0,
+    "banding": "3B",
+    "ranking_range": "#357 - #417"
+  },
+  {
+    "english_name": "Fanling Government Secondary School",
+    "chinese_name": "粉嶺官立中學",
+    "region": "北區",
+    "english_index": 0.0,
+    "banding": "3B",
+    "ranking_range": "#357 - #417"
+  },
+  {
+    "english_name": "Buddhist Sum Heung Lam Memorial College",
+    "chinese_name": "佛教沈香林紀念中學",
+    "region": "屯門",
+    "english_index": 0.0,
+    "banding": "3B",
+    "ranking_range": "#357 - #417"
+  },
+  {
+    "english_name": "Man Kwan QualiEd College",
+    "chinese_name": "萬鈞匯知中學",
+    "region": "西貢",
+    "english_index": 27.4,
+    "banding": "3B",
+    "ranking_range": "#357 - #417"
+  },
+  {
+    "english_name": "Ho Dao College (Sponsored by Sik Sik Yuen)",
+    "chinese_name": "可道中學（嗇色園主辦）",
+    "region": "元朗",
+    "english_index": 0.0,
+    "banding": "3B",
+    "ranking_range": "#357 - #417"
+  },
+  {
+    "english_name": "MKMCF Ma Chan Duen Hey Memorial College",
+    "chinese_name": "馬錦明慈善基金馬陳端喜紀念中學",
+    "region": "西貢",
+    "english_index": 0.0,
+    "banding": "3B",
+    "ranking_range": "#357 - #417"
+  },
+  {
+    "english_name": "Man Kiu College",
+    "chinese_name": "閩僑中學",
+    "region": "東區",
+    "english_index": 0.0,
+    "banding": "3B",
+    "ranking_range": "#357 - #417"
+  },
+  {
+    "english_name": "Caritas Yuen Long Chan Chun Ha Secondary School",
+    "chinese_name": "明愛元朗陳震夏中學",
+    "region": "元朗",
+    "english_index": 0.0,
+    "banding": "3B",
+    "ranking_range": "#357 - #417"
+  },
+  {
+    "english_name": "Ching Chung Hau Po Woon Secondary School",
+    "chinese_name": "青松侯寶垣中學",
+    "region": "屯門",
+    "english_index": 0.0,
+    "banding": "3B",
+    "ranking_range": "#357 - #417"
+  },
+  {
+    "english_name": "Jockey Club Man Kwan EduYoung College",
+    "chinese_name": "賽馬會萬鈞毅智書院",
+    "region": "元朗",
+    "english_index": 0.0,
+    "banding": "3B",
+    "ranking_range": "#357 - #417"
+  },
+  {
+    "english_name": "S.K.H. St. Benedict's School",
+    "chinese_name": "聖公會聖本德中學",
+    "region": "黃大仙",
+    "english_index": 0.0,
+    "banding": "3B",
+    "ranking_range": "#357 - #417"
+  },
+  {
+    "english_name": "Catholic Ming Yuen Secondary School",
+    "chinese_name": "天主教鳴遠中學",
+    "region": "西貢",
+    "english_index": 0.0,
+    "banding": "3B",
+    "ranking_range": "#357 - #417"
+  },
+  {
+    "english_name": "Ng Wah Catholic Secondary School",
+    "chinese_name": "天主教伍華中學",
+    "region": "黃大仙",
+    "english_index": 25.0,
+    "banding": "3B",
+    "ranking_range": "#357 - #417"
+  },
+  {
+    "english_name": "Hong Kong Teachers' Association Lee Heng Kwei Secondary School",
+    "chinese_name": "香港教師會李興貴中學",
+    "region": "大埔",
+    "english_index": 12.5,
+    "banding": "3B",
+    "ranking_range": "#357 - #417"
+  },
+  {
+    "english_name": "HKSYC & IA Chan Nam Chong Memorial College",
+    "chinese_name": "香港四邑商工總會陳南昌紀念中學",
+    "region": "葵青",
+    "english_index": 0.0,
+    "banding": "3B",
+    "ranking_range": "#357 - #417"
+  },
+  {
+    "english_name": "N.T. Heung Yee Kuk Tai Po District Secondary School",
+    "chinese_name": "新界鄉議局大埔區中學",
+    "region": "大埔",
+    "english_index": 0.0,
+    "banding": "3B",
+    "ranking_range": "#357 - #417"
+  },
+  {
+    "english_name": "China Holiness College",
+    "chinese_name": "中聖書院",
+    "region": "深水埗",
+    "english_index": 0.0,
+    "banding": "3B",
+    "ranking_range": "#357 - #417"
+  },
+  {
+    "english_name": "Chung Sing Benevolent Society Mrs. Aw Boon Haw Secondary School",
+    "chinese_name": "鐘聲慈善社胡陳金枝中學",
+    "region": "屯門",
+    "english_index": 30.3,
+    "banding": "3B",
+    "ranking_range": "#357 - #417"
+  },
+  {
+    "english_name": "Delia Memorial School (Broadway)",
+    "chinese_name": "地利亞修女紀念學校（百老匯）",
+    "region": "深水埗",
+    "english_index": null,
+    "banding": "3B",
+    "ranking_range": "#358 - #362"
+  },
+  {
+    "english_name": "Kwun Tong Kung Lok Government Secondary School",
+    "chinese_name": "觀塘功樂官立中學",
+    "region": "觀塘",
+    "english_index": 0.0,
+    "banding": "3",
+    "ranking_range": "#358 - #418"
+  },
+  {
+    "english_name": "Lok Sin Tong Yu Kan Hing Secondary School",
+    "chinese_name": "樂善堂余近卿中學",
+    "region": "黃大仙",
+    "english_index": 19.2,
+    "banding": "3",
+    "ranking_range": "#358 - #418"
+  },
+  {
+    "english_name": "Semple Memorial Secondary School",
+    "chinese_name": "深培中學",
+    "region": "屯門",
+    "english_index": 0.0,
+    "banding": "3",
+    "ranking_range": "#358 - #418"
+  },
+  {
+    "english_name": "CCC Fong Yun Wah Secondary School",
+    "chinese_name": "中華基督教會方潤華中學",
+    "region": "元朗",
+    "english_index": 23.6,
+    "banding": "3",
+    "ranking_range": "#358 - #418"
+  },
+  {
+    "english_name": "CCC Kei Heep Secondary School",
+    "chinese_name": "中華基督教會基協中學",
+    "region": "黃大仙",
+    "english_index": 0.0,
+    "banding": "3",
+    "ranking_range": "#358 - #418"
+  },
+  {
+    "english_name": "Concordia Lutheran School - North Point",
+    "chinese_name": "北角協同中學",
+    "region": "灣仔",
+    "english_index": 0.0,
+    "banding": "3",
+    "ranking_range": "#359 - #418"
+  },
+  {
+    "english_name": "TWGHs Kwok Yat Wai College",
+    "chinese_name": "東華三院郭一葦中學",
+    "region": "元朗",
+    "english_index": 12.1,
+    "banding": "3",
+    "ranking_range": "#359 - #418"
+  },
+  {
+    "english_name": "Shau Kei Wan East Government Secondary School",
+    "chinese_name": "筲箕灣東官立中學",
+    "region": "東區",
+    "english_index": 0.0,
+    "banding": "3B",
+    "ranking_range": "#359 - #362"
+  },
+  {
+    "english_name": "Lui Ming Choi Lutheran College",
+    "chinese_name": "路德會呂明才中學",
+    "region": "荃灣",
+    "english_index": 0.0,
+    "banding": "3B",
+    "ranking_range": "#360 - #412"
+  },
+  {
+    "english_name": "SKH Tsoi Kung Po Secondary School",
+    "chinese_name": "聖公會蔡功譜中學",
+    "region": "九龍城",
+    "english_index": 3.8,
+    "banding": "3",
+    "ranking_range": "#360 - #406"
+  },
+  {
+    "english_name": "Lok Sin Tong Wong Chung Ming Secondary School",
+    "chinese_name": "樂善堂王仲銘中學",
+    "region": "黃大仙",
+    "english_index": 0.0,
+    "banding": "3B",
+    "ranking_range": "#362 - #412"
+  },
+  {
+    "english_name": "Ju Ching Chu Secondary School (Tuen Mun)",
+    "chinese_name": "裘錦秋中學（屯門）",
+    "region": "屯門",
+    "english_index": 0.0,
+    "banding": "3B",
+    "ranking_range": "#362 - #412"
+  },
+  {
+    "english_name": "Cheung Chau Government Secondary School",
+    "chinese_name": "長洲官立中學",
+    "region": "離島區",
+    "english_index": 30.5,
+    "banding": "3",
+    "ranking_range": "#363 - #410"
+  },
+  {
+    "english_name": "CMA Secondary School",
+    "chinese_name": "廠商會中學",
+    "region": "深水埗",
+    "english_index": 0.0,
+    "banding": "3B",
+    "ranking_range": "#363 - #412"
+  },
+  {
+    "english_name": "Cotton Spinners Association Secondary School",
+    "chinese_name": "棉紡會中學",
+    "region": "葵青",
+    "english_index": 0.0,
+    "banding": "3B",
+    "ranking_range": "#363 - #412"
+  },
+  {
+    "english_name": "CCC Tam Lee Lai Fun Memorial Secondary School",
+    "chinese_name": "中華基督教會譚李麗芬紀念中學",
+    "region": "屯門",
+    "english_index": 0.0,
+    "banding": "3B",
+    "ranking_range": "#365 - #412"
+  },
+  {
+    "english_name": "Buddhist Mau Fung Memorial College",
+    "chinese_name": "佛教茂峰法師紀念中學",
+    "region": "元朗",
+    "english_index": 0.0,
+    "banding": "3",
+    "ranking_range": "#374 - #418"
+  },
+  {
+    "english_name": "Aberdeen Technical School",
+    "chinese_name": "香港仔工業學校",
+    "region": "南區",
+    "english_index": 18.2,
+    "banding": "3",
+    "ranking_range": "#374 - #381"
+  },
+  {
+    "english_name": "Caritas Chai Wan Marden Foundation Secondary School",
+    "chinese_name": "明愛柴灣馬登基金中學",
+    "region": "東區",
+    "english_index": null,
+    "banding": "3",
+    "ranking_range": "#378 - #422"
+  },
+  {
+    "english_name": "CCC Fung Leung Kit Memorial Secondary School",
+    "chinese_name": "中華基督教會馮梁結紀念中學",
+    "region": "大埔",
+    "english_index": 0.0,
+    "banding": "3",
+    "ranking_range": "#378 - #422"
+  },
+  {
+    "english_name": "Nam Wah Catholic Secondary School",
+    "chinese_name": "天主教南華中學",
+    "region": "深水埗",
+    "english_index": 0.0,
+    "banding": "3",
+    "ranking_range": "#390 - #395"
+  },
+  {
+    "english_name": "Caritas St. Joseph Secondary School",
+    "chinese_name": "明愛聖若瑟中學",
+    "region": "葵青",
+    "english_index": 0.0,
+    "banding": "3",
+    "ranking_range": "#404 - #410"
+  },
+  {
+    "english_name": "Caritas Tuen Mun Marden Foundation Secondary School",
+    "chinese_name": "明愛屯門馬登基金中學",
+    "region": "屯門",
+    "english_index": 83.6,
+    "banding": "3B",
+    "ranking_range": "#413 - #414"
+  },
+  {
+    "english_name": "Bethel High School",
+    "chinese_name": "伯特利中學",
+    "region": "元朗",
+    "english_index": 48.1,
+    "banding": "3C",
+    "ranking_range": "#415 - #438"
+  },
+  {
+    "english_name": "Delia Memorial School (Hip Wo No.2 College)",
+    "chinese_name": "地利亞修女紀念學校（協和二中）",
+    "region": "觀塘",
+    "english_index": 50.0,
+    "banding": "3C",
+    "ranking_range": "#415 - #434"
+  },
+  {
+    "english_name": "TWGHs Yow Kam Yuen College",
+    "chinese_name": "東華三院邱金元中學",
+    "region": "沙田",
+    "english_index": 0.0,
+    "banding": "3C",
+    "ranking_range": "#415 - #438"
+  },
+  {
+    "english_name": "PAOC Ka Chi Secondary School",
+    "chinese_name": "加拿大神召會嘉智中學",
+    "region": "屯門",
+    "english_index": 12.9,
+    "banding": "3C",
+    "ranking_range": "#415 - #438"
+  },
+  {
+    "english_name": "Kowloon Technical School",
+    "chinese_name": "九龍工業學校",
+    "region": "深水埗",
+    "english_index": 6.6,
+    "banding": "3C",
+    "ranking_range": "#415 - #438"
+  },
+  {
+    "english_name": "Yan Chai Hospital Tung Chi Ying Memorial Secondary School",
+    "chinese_name": "仁濟醫院董之英紀念中學",
+    "region": "沙田",
+    "english_index": 0.0,
+    "banding": "3C",
+    "ranking_range": "#415 - #419"
+  },
+  {
+    "english_name": "Sheung Shui Government Secondary School",
+    "chinese_name": "上水官立中學",
+    "region": "北區",
+    "english_index": 0.3,
+    "banding": "3C",
+    "ranking_range": "#415 - #438"
+  },
+  {
+    "english_name": "Po Chiu Catholic Secondary School",
+    "chinese_name": "天主教普照中學",
+    "region": "觀塘",
+    "english_index": 0.0,
+    "banding": "3C",
+    "ranking_range": "#415 - #438"
+  },
+  {
+    "english_name": "Yuen Long Catholic Secondary School",
+    "chinese_name": "元朗天主教中學",
+    "region": "元朗",
+    "english_index": 0.0,
+    "banding": "3C",
+    "ranking_range": "#415 - #438"
+  },
+  {
+    "english_name": "Sir Ellis Kadoorie Secondary School (West Kowloon)",
+    "chinese_name": "官立嘉道理爵士中學（西九龍）",
+    "region": "油尖旺",
+    "english_index": 85.0,
+    "banding": "3C",
+    "ranking_range": "#418 - #420"
+  },
+  {
+    "english_name": "Caritas Ma On Shan Secondary School",
+    "chinese_name": "明愛馬鞍山中學",
+    "region": "沙田",
+    "english_index": 0.0,
+    "banding": "3",
+    "ranking_range": "#435 - #437"
+  },
+  {
+    "english_name": "Tsang Pik Shan (Sung Lan) Secondary School",
+    "chinese_name": "曾璧山（崇蘭）中學",
+    "region": "沙田",
+    "english_index": 0.0,
+    "banding": "3C",
+    "ranking_range": "#435 - #438"
+  },
+  {
+    "english_name": "Hong Kong Sea School",
+    "chinese_name": "香港航海學校",
+    "region": "南區",
+    "english_index": 0.0,
+    "banding": "3C",
+    "ranking_range": "#437 - #438"
+  },
+  {
+    "english_name": "Precious Blood Secondary School",
+    "chinese_name": "寶血女子中學",
+    "region": "東區",
+    "english_index": 25.9,
+    "banding": "2",
+    "ranking_range": ""
+  },
+  {
+    "english_name": "POH 80th Anniversary Tang Ying Hei College",
+    "chinese_name": "博愛醫院八十週年鄧英喜中學",
+    "region": "西貢",
+    "english_index": 14.8,
+    "banding": "3A–2C",
+    "ranking_range": ""
+  },
+  {
+    "english_name": "Tai Po Sam Yuk Secondary School",
+    "chinese_name": "大埔三育中學",
+    "region": "大埔",
+    "english_index": 75.8,
+    "banding": "2",
+    "ranking_range": ""
+  },
+  {
+    "english_name": "Tack Ching Girls' Secondary School",
+    "chinese_name": "德貞女子中學",
+    "region": "深水埗",
+    "english_index": 12.0,
+    "banding": "3",
+    "ranking_range": ""
+  },
+  {
+    "english_name": "TWGHs Mr & Mrs Kwong Sik Kwan College",
+    "chinese_name": "東華三院鄺錫坤伉儷中學",
+    "region": "屯門",
+    "english_index": 0.5,
+    "banding": "",
+    "ranking_range": ""
+  },
+  {
+    "english_name": "Buddhist Fat Ho Memorial College",
+    "chinese_name": "佛教筏可紀念中學",
+    "region": "離島區",
+    "english_index": 46.2,
+    "banding": "3",
+    "ranking_range": ""
+  },
+  {
+    "english_name": "Buddhist Yip Kei Nam Memorial College",
+    "chinese_name": "佛教葉紀南紀念中學",
+    "region": "葵青",
+    "english_index": 0.0,
+    "banding": "3",
+    "ranking_range": ""
+  },
+  {
+    "english_name": "Chi Lin Buddhist Secondary School",
+    "chinese_name": "佛教志蓮中學",
+    "region": "黃大仙",
+    "english_index": 0.0,
+    "banding": "",
+    "ranking_range": ""
+  },
+  {
+    "english_name": "Wai Kiu College",
+    "chinese_name": "惠僑英文中學",
+    "region": "深水埗",
+    "english_index": 48.3,
+    "banding": "3",
+    "ranking_range": ""
+  },
+  {
+    "english_name": "Kwai Chung Methodist College",
+    "chinese_name": "葵涌循道中學",
+    "region": "葵青",
+    "english_index": 0.0,
+    "banding": "3",
+    "ranking_range": ""
+  },
+  {
+    "english_name": "Lok Sin Tong Leung Chik Wai Memorial School",
+    "chinese_name": "樂善堂梁植偉紀念中學",
+    "region": "葵青",
+    "english_index": 28.3,
+    "banding": "2",
+    "ranking_range": ""
+  },
+  {
+    "english_name": "Lai King Catholic Secondary School",
+    "chinese_name": "荔景天主教中學",
+    "region": "葵青",
+    "english_index": 33.6,
+    "banding": "2",
+    "ranking_range": ""
+  },
+  {
+    "english_name": "Lam Tai Fai College",
+    "chinese_name": "林大輝中學",
+    "region": "沙田",
+    "english_index": 70.1,
+    "banding": "2",
+    "ranking_range": ""
+  },
+  {
+    "english_name": "Fortress Hill Methodist Secondary School",
+    "chinese_name": "炮台山循道衛理中學",
+    "region": "東區",
+    "english_index": 0.6,
+    "banding": "",
+    "ranking_range": ""
+  },
+  {
+    "english_name": "Yan Oi Tong Chan Wong Suk Fong Memorial Secondary School",
+    "chinese_name": "仁愛堂陳黃淑芳紀念中學",
+    "region": "屯門",
+    "english_index": 0.0,
+    "banding": "3",
+    "ranking_range": ""
+  },
+  {
+    "english_name": "Yan Chai Hospital No. 2 Secondary School",
+    "chinese_name": "仁濟醫院第二中學",
+    "region": "屯門",
+    "english_index": 0.0,
+    "banding": "3",
+    "ranking_range": ""
+  },
+  {
+    "english_name": "Ho Ngai College (Sponsored by Sik Sik Yuen)",
+    "chinese_name": "嗇色園主辦可藝中學",
+    "region": "屯門",
+    "english_index": 0.0,
+    "banding": "3",
+    "ranking_range": ""
+  },
+  {
+    "english_name": "S.K.H. Li Ping Secondary School",
+    "chinese_name": "聖公會李炳中學",
+    "region": "荃灣",
+    "english_index": 0.0,
+    "banding": "3",
+    "ranking_range": ""
+  },
+  {
+    "english_name": "St. Margaret's Co-Educational English Secondary and Primary School",
+    "chinese_name": "聖瑪加利男女英文中小學",
+    "region": "深水埗",
+    "english_index": 96.9,
+    "banding": "1",
+    "ranking_range": ""
+  },
+  {
+    "english_name": "Lions Clubs International Tseung Chui King College",
+    "chinese_name": "獅子會蔣翠琼中學",
+    "region": "葵青",
+    "english_index": 0.0,
+    "banding": "3",
+    "ranking_range": ""
+  },
+  {
+    "english_name": "WEO Chang Pui Chung Memorial School",
+    "chinese_name": "威靈頓教育機構張沛松紀念中學",
+    "region": "西貢",
+    "english_index": 0.0,
+    "banding": "3",
+    "ranking_range": ""
+  },
+  {
+    "english_name": "Cognitio College (HK)",
+    "chinese_name": "文理書院（香港）",
+    "region": "東區",
+    "english_index": 0.0,
+    "banding": "3A–2C",
+    "ranking_range": ""
+  },
+  {
+    "english_name": "Hong Kong Red Swastika Society Tai Po Secondary School",
+    "chinese_name": "香港紅卍字會大埔卍慈中學",
+    "region": "大埔",
+    "english_index": 0.0,
+    "banding": "3",
+    "ranking_range": ""
+  },
+  {
+    "english_name": "HKICC Lee Shau Kee School of Creativity",
+    "chinese_name": "香港兆基創意書院 (李兆基基金會贊助、香港當代文化中心主辦)",
+    "region": "九龍城",
+    "english_index": 25.7,
+    "banding": "",
+    "ranking_range": ""
+  },
+  {
+    "english_name": "The Methodist Lee Wai Lee College",
+    "chinese_name": "李惠利中學",
+    "region": "葵青",
+    "english_index": 13.4,
+    "banding": "3",
+    "ranking_range": ""
+  },
+  {
+    "english_name": "Yu Chun Keung Memorial College No. 2",
+    "chinese_name": "余振強紀念第二中學",
+    "region": "南區",
+    "english_index": 48.4,
+    "banding": "3",
+    "ranking_range": ""
+  },
+  {
+    "english_name": "Chong Gene Hang College",
+    "chinese_name": "張振興伉儷書院",
+    "region": "東區",
+    "english_index": 25.5,
+    "banding": "3",
+    "ranking_range": ""
+  },
+  {
+    "english_name": "CCC Kung Lee College",
+    "chinese_name": "中華基督教會公理書院",
+    "region": "灣仔",
+    "english_index": 47.3,
+    "banding": "",
+    "ranking_range": ""
+  },
+  {
+    "english_name": "CCC Hoh Fuk Tong College",
+    "chinese_name": "中華基督教會何福堂書院",
+    "region": "屯門",
+    "english_index": 24.4,
+    "banding": "3",
+    "ranking_range": ""
+  }
+]

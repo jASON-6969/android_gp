@@ -20,6 +20,7 @@ import { sampleSchools } from "../data/sampleSchools";
 import { loadFavoriteIds } from "../hooks/useFavorites";
 import { fetchSchools, getCachedSchools } from "../services/schoolService";
 import { School } from "../types/school";
+import { getBandingForSchool } from "../utils/schoolBanding";
 import "./SchoolDetail.css";
 
 interface DetailParams {
@@ -112,6 +113,13 @@ const SchoolDetail: React.FC<DetailProps> = ({ match, history }) => {
     return sampleSchools.find((item) => item.id === decodedId);
   }, [schools, decodedId]);
 
+  const secondaryBanding = useMemo(() => {
+    if (!school || school.level !== "Secondary") {
+      return null;
+    }
+    return getBandingForSchool(school);
+  }, [school]);
+
   if (!school) {
     return (
       <IonPage>
@@ -199,6 +207,31 @@ const SchoolDetail: React.FC<DetailProps> = ({ match, history }) => {
         <h1>{language === "en" ? school.nameEn : school.nameZh ?? school.nameEn}</h1>
         <IonBadge color="primary">{levelLabelMap[school.level][language]}</IonBadge>
         <p>{language === "en" ? school.districtEn : school.districtZh ?? school.districtEn}</p>
+
+        {secondaryBanding?.banding ? (
+          <IonList lines="full" className="school-detail-banding">
+            <IonItem>
+              <IonLabel>
+                <h2>{language === "en" ? "Secondary banding" : "中學 Band"}</h2>
+                <p className="school-detail-banding-value">{secondaryBanding.banding}</p>
+              </IonLabel>
+            </IonItem>
+            {secondaryBanding.rankingRange ? (
+              <IonItem>
+                <IonLabel>
+                  <h2>{language === "en" ? "Ranking (approx.)" : "排名（約）"}</h2>
+                  <p>{secondaryBanding.rankingRange}</p>
+                </IonLabel>
+              </IonItem>
+            ) : null}
+            <IonItem>
+              <IonLabel>
+                <h2>{language === "en" ? "English index" : "英文指數"}</h2>
+                <p>{secondaryBanding.englishIndex}</p>
+              </IonLabel>
+            </IonItem>
+          </IonList>
+        ) : null}
 
         <IonButton expand="block" fill="outline" onClick={openInMap}>
           <IonIcon slot="start" icon={locationOutline} />

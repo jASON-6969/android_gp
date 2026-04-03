@@ -9,6 +9,15 @@
   padding: 4px 8px 0;
 }
 
+.home-select-row-full {
+  grid-template-columns: 1fr;
+}
+
+.home-banding-badge {
+  text-transform: none;
+  font-weight: 600;
+}
+
 .home-loading {
   height: 60vh;
   display: flex;
