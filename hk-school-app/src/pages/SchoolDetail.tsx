@@ -226,8 +226,11 @@ const SchoolDetail: React.FC<DetailProps> = ({ match, history }) => {
             ) : null}
             <IonItem>
               <IonLabel>
-                <h2>{language === "en" ? "English index" : "英文指數"}</h2>
-                <p>{secondaryBanding.englishIndex}</p>
+                <h2>{language === "en" ? "English index (out of 100)" : "英文指數（滿分 100）"}</h2>
+                <p>
+                  {secondaryBanding.englishIndex}
+                  <span className="school-detail-index-max"> / 100</span>
+                </p>
               </IonLabel>
             </IonItem>
           </IonList>

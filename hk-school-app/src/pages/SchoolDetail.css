@@ -7,6 +7,11 @@
   font-weight: 600;
 }
 
+.school-detail-index-max {
+  font-weight: 500;
+  opacity: 0.85;
+}
+
 .school-detail-accordion {
   margin-top: 8px;
 }
